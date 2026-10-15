@@ -1,0 +1,15 @@
+[
+ {"key": "mimarlik", "name": "Mimarlık Fakültesi", "anchor": "relation/6296521",
+  "replace": ["relation/6296521", "way/431068199"], "file": "mimarlik.glb",
+  "not": "İki dış halkalı relation + ayrı Mimarlık Amfisi tek kompleks olarak modellenecek"},
+ {"key": "kutuphane", "name": "ODTÜ Kütüphane", "anchor": "way/208600863",
+  "replace": ["way/208600863"], "file": "kutuphane.glb"},
+ {"key": "kkm", "name": "ODTÜ Kültür ve Kongre Merkezi", "anchor": "way/423686191",
+  "replace": ["way/423686191"], "file": "kkm.glb"},
+ {"key": "devrim", "name": "Devrim Stadyumu", "anchor": "way/430982885", "replace_inside": true, "file": "devrim.glb",
+  "not": "leisure=stadium alanı; içindeki tüm binalar (tribünler) modelin yerine bırakılır"},
+ {"key": "a1", "name": "A1 Kapısı", "anchor": "way/380300013",
+  "replace": ["way/380300013"], "file": "a1.glb"},
+ {"key": "bilim_agaci", "name": "Bilim Ağacı", "anchor": "node/4622453641", "file": "bilim_agaci.glb",
+  "not": "Heykel (nokta); yerine geçtiği bina yok. Eski yeri node/10235679146 ile karıştırma"}
+]

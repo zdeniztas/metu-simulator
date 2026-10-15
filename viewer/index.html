@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ODTÜ 3D Kampüs (yerel model)</title>
+<style>html,body{margin:0;height:100%;overflow:hidden;font-family:system-ui,sans-serif}
+.hud{position:absolute;color:#fff;background:rgba(10,15,25,.75);padding:10px 14px;border-radius:10px;font-size:14px;line-height:1.45;pointer-events:none}
+#task{top:12px;left:12px;max-width:360px}#help{top:12px;right:12px;font-size:12px}#info{bottom:12px;left:12px;font-size:12px}
+#prompt{bottom:70px;left:50%;transform:translateX(-50%);font-size:18px;background:rgba(20,120,60,.9);display:none}
+#bname{top:150px;left:50%;transform:translateX(-50%);font-size:16px;font-weight:600;display:none;max-width:40vw;text-align:center}</style>
+<script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"}}</script>
+</head><body>
+<div id="task" class="hud">Yükleniyor…</div><div id="prompt" class="hud"></div><div id="bname" class="hud"></div>
+<div id="help" class="hud">W/S: ileri/geri · A/D: dön · Shift: koş · E: görevi yap · N: atla · M: harita</div><div id="info" class="hud"></div>
+<script type="module">
+import * as THREE from 'three';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+const $ = id => document.getElementById(id);
+const scene = new THREE.Scene(); scene.background = new THREE.Color(0x9ec8ee); scene.fog = new THREE.Fog(0x9ec8ee, 300, 1500);
+const cam = new THREE.PerspectiveCamera(65, innerWidth/innerHeight, 0.5, 4000);
+const ren = new THREE.WebGLRenderer({antialias:true}); ren.setSize(innerWidth, innerHeight); document.body.appendChild(ren.domElement);
+addEventListener('resize', () => { cam.aspect = innerWidth/innerHeight; cam.updateProjectionMatrix(); ren.setSize(innerWidth, innerHeight); });
+scene.add(new THREE.HemisphereLight(0xffffff, 0x556655, 1.0));
+const sun = new THREE.DirectionalLight(0xffffff, 1.6); sun.position.set(200, 400, 150); scene.add(sun);
+const [landmarks, TASKS, TER, FP, TREES] = await Promise.all([fetch('landmarks.json').then(r => r.json()).catch(() => []),
+                                                   fetch('tasks.json').then(r => r.json()),
+                                                   fetch('terrain.json').then(r => r.json()).catch(() => null),
+                                                   fetch('footprints.json').then(r => r.json()).catch(() => []),
+                                                   fetch('trees.json').then(r => r.json()).catch(() => ({d: []}))]);
+
+// Bina çarpışması: ayak izi kenarları CELL m'lik ızgaraya (R payıyla) dağıtılır; oyuncu R yarıçaplı daire
+const CELL = 32, R = 0.4, grid = new Map(), ck = (x, z) => Math.floor(x / CELL) + ',' + Math.floor(z / CELL);
+FP.forEach((b, bi) => {
+  const p = b.p, n = p.length; let x0 = Infinity, z0 = Infinity, x1 = -Infinity, z1 = -Infinity;
+  for (let k = 0; k < n; k++) {
+    const [ax, az] = p[k], [bx, bz] = p[(k + 1) % n], s = {ax, az, bx, bz, bi};
+    x0 = Math.min(x0, ax); z0 = Math.min(z0, az); x1 = Math.max(x1, ax); z1 = Math.max(z1, az);
+    for (let i = Math.floor((Math.min(ax, bx) - R) / CELL); i <= Math.floor((Math.max(ax, bx) + R) / CELL); i++)
+      for (let j = Math.floor((Math.min(az, bz) - R) / CELL); j <= Math.floor((Math.max(az, bz) + R) / CELL); j++) {
+        const key = i + ',' + j; if (!grid.has(key)) grid.set(key, []); grid.get(key).push(s);
+      }
+  }
+  b.box = [x0, z0, x1, z1];
+});
+const segsAt = (x, z) => grid.get(ck(x, z)) || [];
+// Ağaç gövdeleri (trees.json: x, z, ölçek, tür): aynı ızgarada daireler
+const TRUNK_R = 0.3, tgrid = new Map();
+for (let k = 0; k < TREES.d.length; k += 4) {
+  const x = TREES.d[k], z = TREES.d[k + 1], r = TRUNK_R * TREES.d[k + 2], pad = r + R;
+  for (let i = Math.floor((x - pad) / CELL); i <= Math.floor((x + pad) / CELL); i++)
+    for (let j = Math.floor((z - pad) / CELL); j <= Math.floor((z + pad) / CELL); j++) {
+      const key = i + ',' + j; if (!tgrid.has(key)) tgrid.set(key, []); tgrid.get(key).push([x, z, r]);
+    }
+}
+const closest = (s, x, z) => { const ex = s.bx - s.ax, ez = s.bz - s.az, L = ex*ex + ez*ez;
+  const u = L ? Math.min(1, Math.max(0, ((x - s.ax)*ex + (z - s.az)*ez) / L)) : 0; return [s.ax + u*ex, s.az + u*ez]; };
+const segDist = (s, x, z) => { const [cx, cz] = closest(s, x, z); return Math.hypot(x - cx, z - cz); };
+function collide(p) {   // duvara girmişse kenar normali boyunca R'ye it (birkaç tur: köşeler)
+  for (let it = 0; it < 4; it++) {
+    let hit = false;
+    for (const s of segsAt(p.x, p.z)) {
+      const [cx, cz] = closest(s, p.x, p.z), dx = p.x - cx, dz = p.z - cz, d = Math.hypot(dx, dz);
+      if (d < R && d > 1e-6) { p.x = cx + dx / d * R; p.z = cz + dz / d * R; hit = true; }
+    }
+    for (const [tx, tz, r] of tgrid.get(ck(p.x, p.z)) || []) {
+      const dx = p.x - tx, dz = p.z - tz, d = Math.hypot(dx, dz);
+      if (d < r + R && d > 1e-6) { p.x = tx + dx / d * (r + R); p.z = tz + dz / d * (r + R); hit = true; }
+    }
+    if (!hit) break;
+  }
+}
+const inPoly = (p, x, z) => { let c = false;
+  for (let i = 0, j = p.length - 1; i < p.length; j = i++)
+    if ((p[i][1] > z) !== (p[j][1] > z) && x < (p[j][0] - p[i][0]) * (z - p[i][1]) / (p[j][1] - p[i][1]) + p[i][0]) c = !c;
+  return c; };
+const buildingAt = (x, z) => FP.findIndex(b => x >= b.box[0] && x <= b.box[2] && z >= b.box[1] && z <= b.box[3] && inPoly(b.p, x, z));
+function freeSpot(x, z) {   // (x,z) bina içindeyse/duvara yapışıksa en yakın boş noktayı spiral ara
+  const ok = (x, z) => buildingAt(x, z) < 0 && segsAt(x, z).every(s => segDist(s, x, z) > R + .1);
+  if (ok(x, z)) return [x, z];
+  for (let r = 2; r < 400; r += 2) for (let a = 0; a < 24; a++) {
+    const px = x + r * Math.cos(a * Math.PI / 12), pz = z + r * Math.sin(a * Math.PI / 12);
+    if (ok(px, pz)) return [px, pz];
+  }
+  return [x, z];
+}
+// (x0,z0)->(x1,z1) doğrusunu kesen, çatısı minTop'tan yüksek duvarlar -> [ilk kesişimin oranı, en yüksek çatı]
+function wallBetween(x0, z0, x1, z1, minTop) {
+  let best = 1, top = -Infinity; const seen = new Set(), L = Math.hypot(x1 - x0, z1 - z0), n = Math.ceil(L / (CELL / 2)) + 1;
+  for (let k = 0; k <= n; k++) for (const s of segsAt(x0 + (x1 - x0) * k / n, z0 + (z1 - z0) * k / n)) {
+    if (seen.has(s) || FP[s.bi].t < minTop) continue; seen.add(s);
+    const rx = x1 - x0, rz = z1 - z0, sx = s.bx - s.ax, sz = s.bz - s.az, den = rx * sz - rz * sx;
+    if (Math.abs(den) < 1e-9) continue;
+    const t = ((s.ax - x0) * sz - (s.az - z0) * sx) / den, u = ((s.ax - x0) * rz - (s.az - z0) * rx) / den;
+    if (t >= 0 && t <= 1 && u >= 0 && u <= 1) { best = Math.min(best, t); top = Math.max(top, FP[s.bi].t); }
+  }
+  return [best, top];
+}
+
+// Arazi: build_gltf.py'nin yazdığı düzenli ızgara (x = x0 + i*dx, z = z0 + j*dz, satır satır kuzeyden güneye)
+const groundAt = !TER ? () => 0 : (x, z) => {   // bilinear; ızgara dışında kenara kenetlenir (build_gltf.py ile aynı)
+  const fi = Math.min(Math.max((x - TER.x0) / TER.dx, 0), TER.nx - 1.001), fj = Math.min(Math.max((z - TER.z0) / TER.dz, 0), TER.nz - 1.001);
+  const i = fi | 0, j = fj | 0, u = fi - i, v = fj - j, h = TER.h, n = TER.nx, k = j * n + i;
+  return h[k]*(1-u)*(1-v) + h[k+1]*u*(1-v) + h[k+n]*(1-u)*v + h[k+n+1]*u*v;
+};
+const grass = new THREE.MeshLambertMaterial({color: 0x8fae7a});
+let floorY = -0.05;
+// Yollar ve yeşil alan/su (surfaces.json) arazinin dokusuna çizilir: zemine birebir oturur, z-fighting olmaz
+const SURF_COLORS = {forest: '#5f7f4e', scrub: '#7d9361', grass: '#9bbf7f', park: '#93bb76', pitch: '#6fae5a', track: '#b5654a',
+                     parking: '#9a9a96', paved: '#c2bdb3', bare: '#c9b98f', water: '#5d8fc4', road: '#6e6e6e', path: '#d9cfb6'};
+function surfaceTexture(S, w, d) {
+  const scale = Math.min(4096, ren.capabilities.maxTextureSize) / Math.max(w, d);   // px/m (~1,1)
+  const cv = document.createElement('canvas'); cv.width = Math.ceil(w * scale); cv.height = Math.ceil(d * scale);
+  const c = cv.getContext('2d'), X = x => (x - S.extent[0]) * scale, Z = z => (z - S.extent[1]) * scale;   // üst kenar = kuzey
+  c.fillStyle = '#8fae7a'; c.fillRect(0, 0, cv.width, cv.height);
+  for (const a of S.areas) {   // ilk halka dış, kalanlar delik (evenodd)
+    c.beginPath();
+    for (const r of a.r) { r.forEach(([x, z], i) => i ? c.lineTo(X(x), Z(z)) : c.moveTo(X(x), Z(z))); c.closePath(); }
+    c.fillStyle = SURF_COLORS[a.k]; c.fill('evenodd');
+  }
+  c.lineCap = c.lineJoin = 'round';
+  for (const l of S.lines) {   // önce yaya yolları, sonra dardan genişe araç yolları
+    c.beginPath(); l.p.forEach(([x, z], i) => i ? c.lineTo(X(x), Z(z)) : c.moveTo(X(x), Z(z)));
+    c.strokeStyle = SURF_COLORS[l.k]; c.lineWidth = Math.max(1.5, l.w * scale); c.stroke();
+  }
+  const tex = new THREE.CanvasTexture(cv); tex.colorSpace = THREE.SRGBColorSpace;
+  tex.anisotropy = ren.capabilities.getMaxAnisotropy(); return tex;
+}
+if (TER) {
+  const w = (TER.nx - 1) * TER.dx, d = (TER.nz - 1) * TER.dz;
+  const g = new THREE.PlaneGeometry(w, d, TER.nx - 1, TER.nz - 1); g.rotateX(-Math.PI / 2);   // ilk satır kuzeyde (-z)
+  const pos = g.attributes.position;
+  for (let k = 0; k < pos.count; k++) pos.setY(k, TER.h[k]);
+  g.translate(TER.x0 + w / 2, 0, TER.z0 + d / 2); g.computeVertexNormals();
+  const SURF = await fetch('surfaces.json').then(r => r.json()).catch(() => null);
+  scene.add(new THREE.Mesh(g, SURF ? new THREE.MeshLambertMaterial({map: surfaceTexture(SURF, w, d)}) : grass));
+  floorY = Math.min(...TER.h) - 1;
+}
+const ground = new THREE.Mesh(new THREE.PlaneGeometry(6000, 6000), grass);   // ufuk için arazinin altında düz zemin
+ground.rotation.x = -Math.PI/2; ground.position.y = floorY; scene.add(ground);
+
+// Ağaçlar: tür başına InstancedMesh (gövde + taç). Ölçüler ölçek=1 için metre.
+{
+  const n = TREES.d.length / 4, m4 = new THREE.Matrix4(), q = new THREE.Quaternion(), up = new THREE.Vector3(0, 1, 0);
+  const trunkG = new THREE.CylinderGeometry(.18, .3, 3, 6, 1, true).translate(0, 1.5, 0);
+  const pineG = new THREE.ConeGeometry(2.4, 8, 8).translate(0, 6.5, 0);          // çam: 2,5 m'den 10,5 m'ye
+  const broadG = new THREE.IcosahedronGeometry(3.2, 1).translate(0, 5.5, 0);    // yapraklı: ~9 m
+  const counts = [0, 0]; for (let k = 3; k < TREES.d.length; k += 4) counts[TREES.d[k]]++;
+  const trunks = new THREE.InstancedMesh(trunkG, new THREE.MeshLambertMaterial({color: 0x5a4632}), n);
+  const crowns = [new THREE.InstancedMesh(broadG, new THREE.MeshLambertMaterial({color: 0x4f7a3a, flatShading: true}), counts[0]),
+                  new THREE.InstancedMesh(pineG, new THREE.MeshLambertMaterial({color: 0x34552f, flatShading: true}), counts[1])];
+  const ci = [0, 0], col = new THREE.Color();
+  for (let i = 0; i < n; i++) {
+    const x = TREES.d[4*i], z = TREES.d[4*i+1], s = TREES.d[4*i+2], kind = TREES.d[4*i+3];
+    q.setFromAxisAngle(up, (x * 12.9898 + z * 78.233) % (2 * Math.PI));   // konumdan türetilen sabit dönüş
+    m4.compose(new THREE.Vector3(x, groundAt(x, z) - 0.2, z), q, new THREE.Vector3(s, s, s));
+    trunks.setMatrixAt(i, m4); crowns[kind].setMatrixAt(ci[kind], m4);
+    col.setScalar(0.8 + 0.4 * Math.abs((x * 0.37 + z * 0.73) % 1));   // ağaçtan ağaca hafif parlaklık farkı
+    crowns[kind].setColorAt(ci[kind]++, col);
+  }
+  // Kameraya yakın ağaçlar (karakterle kamera arasındakiler) dither ile kaybolur: 8 m'de tamamen, 13 m'de hiç
+  const fadeNear = sh => { sh.fragmentShader = sh.fragmentShader.replace('void main() {', `void main() {
+    float fadeK = smoothstep(8.0, 13.0, length(vViewPosition));
+    if (fadeK < fract(sin(dot(gl_FragCoord.xy, vec2(12.9898, 78.233))) * 43758.5453)) discard;`); };
+  for (const m of [trunks, ...crowns]) { m.material.onBeforeCompile = fadeNear; m.frustumCulled = false; scene.add(m); }
+}
+// trimesh malzeme yazmıyor -> glTF varsayılanı metallic=1 (ortam haritası yokken siyah görünür)
+await new Promise(res => new GLTFLoader().load('../out/campus.glb', g => {
+  g.scene.traverse(o => { if (!o.isMesh) return;
+    o.material.metalness = 0; o.material.roughness = 0.9;
+    const t = o.material.map;   // cephe dokuları aks/kat başına tekrarlanır (UV 0..aks sayısı)
+    if (t) { t.wrapS = t.wrapT = THREE.RepeatWrapping; t.anisotropy = ren.capabilities.getMaxAnisotropy(); t.needsUpdate = true; } });
+  scene.add(g.scene); res(); },
+  undefined, e => { $('info').textContent = 'campus.glb yüklenemedi (python scripts/build_gltf.py çalıştırdın mı?)'; res(); }));
+// Elle modellenmiş önemli yapılar (models/landmarks.json -> build_gltf.py -> models.json). Orijin = yapının merkezi ve zemini.
+const MODELS = await fetch('models.json').then(r => r.json()).catch(() => []);
+await Promise.all(MODELS.map(m => new GLTFLoader().loadAsync(m.file).then(g => {
+  g.scene.position.set(m.x, m.y, m.z); g.scene.rotation.y = m.rot_deg * Math.PI / 180; g.scene.scale.setScalar(m.scale);
+  scene.add(g.scene);
+}).catch(e => console.warn('model yüklenemedi:', m.file, e))));
+
+// Görev yerlerini landmarks.json'dan isimle çöz
+const tasks = [];
+for (const t of TASKS) {
+  let best = null;
+  for (const pat of t.match) {
+    const re = new RegExp(pat, 'i');
+    for (const l of landmarks) {
+      if (!(re.test(l.name || '') || re.test(l.name_en || ''))) continue;
+      const d = Math.hypot(l.x, l.z);
+      if (!best || d < best.d) best = {d, l};
+    }
+    if (best) break;
+  }
+  // hedef bir binanın içindeyse (merkez noktası) o binanın duvarına yaklaşmak da yeterli
+  if (best) tasks.push({...t, x: best.l.x, z: best.l.z, label: best.l.name, bi: buildingAt(best.l.x, best.l.z)});
+}
+const NEAR_WALL = 8;   // m; hedef binanın duvarına bu kadar yaklaşınca görev yapılabilir
+const nearTarget = (t, x, z) => {
+  if (Math.hypot(t.x - x, t.z - z) < t.r) return true;
+  if (t.bi < 0) return false;
+  const p = FP[t.bi].p;
+  for (let k = 0; k < p.length; k++) {
+    const [ax, az] = p[k], [bx, bz] = p[(k + 1) % p.length];
+    if (segDist({ax, az, bx, bz}, x, z) < NEAR_WALL) return true;
+  }
+  return false;
+};
+const markers = tasks.map((t, i) => {
+  const m = new THREE.Mesh(new THREE.CylinderGeometry(2, 2, 120, 12), new THREE.MeshBasicMaterial({color: 0x00e5ff, transparent: true, opacity: .45}));
+  m.position.set(t.x, groundAt(t.x, t.z) + 60, t.z); m.visible = i === 0; scene.add(m); return m;
+});
+$('info').innerHTML = `${tasks.length}/${TASKS.length} görev yeri bulundu · ${landmarks.length} isimli yer<br>` +
+  `<span style="opacity:.7">© OpenStreetMap katkıcıları, Overture Maps (ODbL) · Arazi: Copernicus DEM GLO-30 © DLR e.V., © Airbus DS, ESA/AB` +
+  ` · Ağaç örtüsü: © ESA WorldCover 2021 (CC BY 4.0)</span>`;
+
+const [sx, sz] = freeSpot(0, 0);
+const player = {x: sx, z: sz, h: 0};   // h = yön (rad); 0 => -z (kuzey)
+window.odtu = {player, tasks, FP, buildingAt, nearestName: (x, z) => nearestName(x, z)};   // konsoldan hata ayıklama için
+const body = new THREE.Mesh(new THREE.CylinderGeometry(.35, .35, 1.8, 12), new THREE.MeshLambertMaterial({color: 0xff9900}));
+scene.add(body);
+let ti = 0, score = 0, inRange = false; const keys = {};
+const show = () => { $('task').innerHTML = ti >= tasks.length ? `<b>Gün bitti!</b><br>Puan: ${score}` :
+  `<b>Görev ${ti+1}/${tasks.length}: ${tasks[ti].name}</b><br>${tasks[ti].desc}<br>Mesafe: ${Math.hypot(tasks[ti].x-player.x, tasks[ti].z-player.z).toFixed(0)} m<br>Puan: ${score}`; };
+const next = () => { markers[ti].visible = false; ti++; if (ti < tasks.length) markers[ti].visible = true; inRange = false; $('prompt').style.display = 'none'; };
+// Bina adı etiketi: oyuncuya NAME_DIST m'den yakın duvarı olan en yakın isimli bina
+const NAME_DIST = 12;
+function nearestName(x, z) {
+  let best = null, bd = NAME_DIST;
+  for (let i = -1; i <= 1; i++) for (let j = -1; j <= 1; j++)
+    for (const s of segsAt(x + i * CELL, z + j * CELL)) {
+      if (!FP[s.bi].n) continue;
+      const d = segDist(s, x, z); if (d < bd) { bd = d; best = FP[s.bi].n; }
+    }
+  return best;
+}
+addEventListener('keydown', e => { const k = e.key.toLowerCase(); keys[k] = true;
+  if (k === 'e' && inRange && ti < tasks.length) { score += tasks[ti].points; next(); }
+  if (k === 'n' && ti < tasks.length) next();
+  if (k === 'm') overview = !overview; });
+let overview = false;   // M: kuşbakışı harita
+addEventListener('keyup', e => keys[e.key.toLowerCase()] = false);
+
+let last = performance.now(), tick = 0, shownName = null;
+function frame(now) {
+  const dt = Math.min(.1, (now - last) / 1000); last = now;
+  if (keys['a']) player.h += 1.8 * dt; if (keys['d']) player.h -= 1.8 * dt;
+  const sp = keys['shift'] ? 9 : 4; let f = (keys['w'] ? 1 : 0) - (keys['s'] ? .6 : 0);
+  const mx = -Math.sin(player.h) * f * sp * dt, mz = -Math.cos(player.h) * f * sp * dt;
+  const steps = Math.ceil(Math.hypot(mx, mz) / 0.25);   // adım < R: duvarın içinden geçip öbür yana atlamasın
+  for (let k = 0; k < steps; k++) { player.x += mx / steps; player.z += mz / steps; collide(player); }
+  const py = groundAt(player.x, player.z);
+  body.position.set(player.x, py + .9, player.z);
+  let cx = player.x + Math.sin(player.h) * 14, cz = player.z + Math.cos(player.h) * 14;
+  // karakterle kamera arasında kameradan yüksek bina varsa: alçaksa kamerayı çatının üstüne kaldır, yüksekse duvarın önüne çek
+  let camY = Math.max(py + 6, groundAt(cx, cz) + 2);   // arkadaki yamaç kamerayı gömmesin
+  const [cut, top] = wallBetween(player.x, player.z, cx, cz, camY);
+  if (cut < 1) {
+    if (top - py < 20) camY = top + 2;
+    else { const k = Math.max(0.1, cut - 0.05); cx = player.x + (cx - player.x) * k; cz = player.z + (cz - player.z) * k; }
+  }
+  if (overview) { cam.position.set(player.x, py + 350, player.z + 1); cam.lookAt(player.x, py, player.z); }   // kuzey yukarıda
+  else { cam.position.set(cx, camY, cz); cam.lookAt(player.x, py + 1.5, player.z); }
+  if (ti < tasks.length) {
+    const t = tasks[ti]; inRange = nearTarget(t, player.x, player.z);
+    $('prompt').style.display = inRange ? 'block' : 'none'; $('prompt').textContent = `E: ${t.act}`;
+    if (tick++ % 10 === 0) show();
+  } else if (tick++ % 30 === 0) show();
+  const nm = nearestName(player.x, player.z);   // her karede (ucuz); DOM'a sadece değişince yaz
+  if (nm !== shownName) { shownName = nm; $('bname').style.display = nm ? 'block' : 'none'; if (nm) $('bname').textContent = nm; }
+  ren.render(scene, cam); requestAnimationFrame(frame);
+}
+show(); requestAnimationFrame(frame);
+</script></body></html>

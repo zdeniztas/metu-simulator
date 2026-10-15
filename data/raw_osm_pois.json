@@ -1,0 +1,3983 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-10-15T13:37:05Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 112671852,
+  "lat": 39.8853563,
+  "lon": 32.7637910,
+  "tags": {
+    "amenity": "fuel",
+    "brand": "Shell",
+    "brand:wikidata": "Q110716465",
+    "name": "Shell"
+  }
+},
+{
+  "type": "node",
+  "id": 149002857,
+  "lat": 39.9091774,
+  "lon": 32.7896872,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Kafe's"
+  }
+},
+{
+  "type": "node",
+  "id": 282447167,
+  "lat": 39.8982909,
+  "lon": 32.7757311,
+  "tags": {
+    "amenity": "school",
+    "name": "Sürekli Eğitim Merkezi"
+  }
+},
+{
+  "type": "node",
+  "id": 308826436,
+  "lat": 39.8934801,
+  "lon": 32.7840236,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Kafeterya"
+  }
+},
+{
+  "type": "node",
+  "id": 310043489,
+  "lat": 39.8849336,
+  "lon": 32.7632613,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Domino's",
+    "brand:wikidata": "Q839466",
+    "brand:wikipedia": "en:Domino's Pizza",
+    "cuisine": "pizza",
+    "name": "Domino's",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 501705595,
+  "lat": 39.8924906,
+  "lon": 32.7885046,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "level": "0",
+    "name": "Özge Eczanesi",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 501705606,
+  "lat": 39.8921987,
+  "lon": 32.7887184,
+  "tags": {
+    "brand": "Şok",
+    "brand:wikidata": "Q19613992",
+    "brand:wikipedia": "tr:Şok (market)",
+    "name": "Şok",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 501705626,
+  "lat": 39.8898332,
+  "lon": 32.7906931,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "cafe",
+    "name": "Sunshine"
+  }
+},
+{
+  "type": "node",
+  "id": 501705632,
+  "lat": 39.8894217,
+  "lon": 32.7914685,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Çatı",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "node",
+  "id": 501820006,
+  "lat": 39.8945711,
+  "lon": 32.7823488,
+  "tags": {
+    "amenity": "fast_food",
+    "loc_name": "Fizik Kantini",
+    "name": "Bizim Kantin"
+  }
+},
+{
+  "type": "node",
+  "id": 529107591,
+  "lat": 39.9004916,
+  "lon": 32.7771767,
+  "tags": {
+    "amenity": "college",
+    "name": "GİSAM"
+  }
+},
+{
+  "type": "node",
+  "id": 664127092,
+  "lat": 39.8941238,
+  "lon": 32.7864780,
+  "tags": {
+    "amenity": "bar",
+    "name": "Uptown",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 669552385,
+  "lat": 39.8924122,
+  "lon": 32.7771941,
+  "tags": {
+    "amenity": "atm",
+    "brand": "Yapı Kredi",
+    "brand:wikidata": "Q8049138",
+    "name": "Yapı Kredi",
+    "operator": "Yapı Kredi",
+    "operator:wikidata": "Q8049138",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 710187237,
+  "lat": 39.8915584,
+  "lon": 32.7895724,
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Türkiye İş Bankası",
+    "brand:wikidata": "Q909613",
+    "name": "Türkiye İş Bankası",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 710189364,
+  "lat": 39.8921284,
+  "lon": 32.7881250,
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Ziraat Bankası",
+    "brand:wikidata": "Q696003",
+    "name": "Ziraat Bankası",
+    "opening_hours": "Mo-Fr 09:00-12:30,13:30-17:00; Sa-Su off; PH off; PH eve 09:00-12:30",
+    "website": "https://www.ziraatbank.com.tr/"
+  }
+},
+{
+  "type": "node",
+  "id": 712163444,
+  "lat": 39.8925179,
+  "lon": 32.7879099,
+  "tags": {
+    "amenity": "atm",
+    "brand": "Halkbank",
+    "brand:wikidata": "Q5642504",
+    "name": "Halkbank",
+    "operator": "Halkbank",
+    "operator:wikidata": "Q5642504"
+  }
+},
+{
+  "type": "node",
+  "id": 712166371,
+  "lat": 39.8925709,
+  "lon": 32.7878995,
+  "tags": {
+    "amenity": "atm",
+    "brand": "QNB",
+    "brand:wikidata": "Q1136759",
+    "name": "QNB Finansbank",
+    "operator": "QNB",
+    "operator:wikidata": "Q1136759"
+  }
+},
+{
+  "type": "node",
+  "id": 715454932,
+  "lat": 39.8918156,
+  "lon": 32.7889712,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "kebab",
+    "level": "1",
+    "name": "Maydanoz Döner",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 718505717,
+  "lat": 39.8922210,
+  "lon": 32.7885595,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "fish;sandwich",
+    "delivery": "no",
+    "indoor_seating": "no",
+    "level": "0",
+    "name": "Balıkçı",
+    "outdoor_seating": "yes",
+    "takeaway": "only",
+    "toilets": "no",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 720717538,
+  "lat": 39.8921058,
+  "lon": 32.7878662,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Ortadoğu Eczanesi"
+  }
+},
+{
+  "type": "node",
+  "id": 720720169,
+  "lat": 39.8924914,
+  "lon": 32.7881916,
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Vakıfbank",
+    "brand:wikidata": "Q1148521",
+    "level": "0",
+    "name": "Vakıfbank"
+  }
+},
+{
+  "type": "node",
+  "id": 722483620,
+  "lat": 39.8933890,
+  "lon": 32.7844412,
+  "tags": {
+    "alt_name": "Türkiye İş Bankası",
+    "amenity": "atm",
+    "brand": "Türkiye İş Bankası",
+    "brand:wikidata": "Q909613",
+    "cash_in": "yes",
+    "check_date": "2025-07-13",
+    "name": "Türkiye İş Bankası",
+    "operator": "Türkiye İş Bankası",
+    "operator:wikidata": "Q909613"
+  }
+},
+{
+  "type": "node",
+  "id": 1339847157,
+  "lat": 39.9072049,
+  "lon": 32.7638161,
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:neighbourhood": "Üniversiteler Mahallesi",
+    "addr:postcode": "06800",
+    "amenity": "taxi",
+    "contact:phone": "+90 312 266 54 00",
+    "name": "Murat Taksi"
+  }
+},
+{
+  "type": "node",
+  "id": 1432430838,
+  "lat": 39.8851757,
+  "lon": 32.7632006,
+  "tags": {
+    "addr:housenumber": "19",
+    "addr:neighbourhood": "Üniversiteler Mahallesi",
+    "addr:postcode": "06800",
+    "addr:street": "Bilkent Bulvarı",
+    "amenity": "restaurant",
+    "contact:website": "https://www.duveroglu.com.tr/",
+    "cuisine": "kebab;turkish",
+    "name": "Düveroğlu"
+  }
+},
+{
+  "type": "node",
+  "id": 1849537464,
+  "lat": 39.8964620,
+  "lon": 32.7926054,
+  "tags": {
+    "addr:city": "Ankara",
+    "amenity": "community_centre",
+    "name": "ODTÜ Mezunları Derneği",
+    "phone": "+90 312 286 7979",
+    "website": "https://www.odtumd.org.tr/",
+    "wheelchair": "yes",
+    "wheelchair:description": "Even swimming pool has a wheelchair lift.  Only problem is the rotating doors at the main entrance"
+  }
+},
+{
+  "type": "node",
+  "id": 2228327843,
+  "lat": 39.8823430,
+  "lon": 32.7630721,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "turkish",
+    "name": "Salus Restaurant"
+  }
+},
+{
+  "type": "node",
+  "id": 2228375601,
+  "lat": 39.8826970,
+  "lon": 32.7635817,
+  "tags": {
+    "covered": "no",
+    "leisure": "swimming_pool",
+    "name": "Sports International",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "node",
+  "id": 2303505098,
+  "lat": 39.8988126,
+  "lon": 32.7752613,
+  "tags": {
+    "amenity": "atm",
+    "brand": "Akbank",
+    "brand:wikidata": "Q416624",
+    "name": "Akbank",
+    "operator": "Akbank",
+    "operator:wikidata": "Q416624"
+  }
+},
+{
+  "type": "node",
+  "id": 2303505124,
+  "lat": 39.8986192,
+  "lon": 32.7752773,
+  "tags": {
+    "amenity": "atm",
+    "brand": "TEB",
+    "brand:wikidata": "Q7862447",
+    "name": "TEB",
+    "operator": "TEB",
+    "operator:wikidata": "Q7862447"
+  }
+},
+{
+  "type": "node",
+  "id": 2303505135,
+  "lat": 39.8987607,
+  "lon": 32.7752635,
+  "tags": {
+    "amenity": "atm",
+    "brand": "Denizbank",
+    "brand:wikidata": "Q1115064",
+    "name": "Denizbank",
+    "operator": "Denizbank",
+    "operator:wikidata": "Q1115064"
+  }
+},
+{
+  "type": "node",
+  "id": 2303505139,
+  "lat": 39.8985781,
+  "lon": 32.7752773,
+  "tags": {
+    "amenity": "atm",
+    "brand": "ING",
+    "brand:wikidata": "Q645708",
+    "name": "ING",
+    "operator": "ING",
+    "operator:wikidata": "Q645708"
+  }
+},
+{
+  "type": "node",
+  "id": 2303505147,
+  "lat": 39.8985281,
+  "lon": 32.7752797,
+  "tags": {
+    "amenity": "atm",
+    "brand": "Ziraat Bankası",
+    "brand:wikidata": "Q696003",
+    "name": "Ziraat Bankası",
+    "operator": "Ziraat Bankası",
+    "operator:wikidata": "Q696003"
+  }
+},
+{
+  "type": "node",
+  "id": 2590946334,
+  "lat": 39.8902222,
+  "lon": 32.7897722,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "2. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "2. Yurt Kantini",
+    "name:en": "2nd Dorm Canteen"
+  }
+},
+{
+  "type": "node",
+  "id": 2676914420,
+  "lat": 39.8995455,
+  "lon": 32.7733392,
+  "tags": {
+    "amenity": "bar",
+    "brewery": "yes",
+    "capacity": "200",
+    "cuisine": "pizza;regional;burger;italian;sandwich;chicken;mexican;asian",
+    "name": "Central",
+    "smoking": "isolated",
+    "website": "https://www.instagram.com/centralodtuteknokent/"
+  }
+},
+{
+  "type": "node",
+  "id": 2676914801,
+  "lat": 39.8976391,
+  "lon": 32.7742079,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "cuisine": "coffee_shop",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "outdoor_seating": "yes",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 2677063020,
+  "lat": 39.8924341,
+  "lon": 32.7882762,
+  "tags": {
+    "amenity": "fast_food",
+    "level": "0",
+    "name": "Piyata"
+  }
+},
+{
+  "type": "node",
+  "id": 2677063479,
+  "lat": 39.8921047,
+  "lon": 32.7877884,
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Akbank",
+    "brand:wikidata": "Q416624",
+    "brand:wikipedia": "tr:Akbank",
+    "name": "Akbank"
+  }
+},
+{
+  "type": "node",
+  "id": 2677063716,
+  "lat": 39.8926956,
+  "lon": 32.7884815,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "kebab",
+    "level": "1",
+    "name": "Meşhur Aspava"
+  }
+},
+{
+  "type": "node",
+  "id": 2677063829,
+  "lat": 39.8924891,
+  "lon": 32.7881532,
+  "tags": {
+    "alt_name": "Susam Simit Cafe",
+    "amenity": "cafe",
+    "level": "1",
+    "name": "Susam"
+  }
+},
+{
+  "type": "node",
+  "id": 2677065730,
+  "lat": 39.8922910,
+  "lon": 32.7878890,
+  "tags": {
+    "amenity": "fast_food",
+    "changing_table": "no",
+    "cuisine": "pizza",
+    "indoor_seating": "yes",
+    "level": "0",
+    "name": "Pizzacı Altan",
+    "outdoor_seating": "yes",
+    "smoking": "outside",
+    "takeaway": "yes",
+    "toilets": "yes",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 2677074831,
+  "lat": 39.8928155,
+  "lon": 32.7850758,
+  "tags": {
+    "artist_name": "Burhan Alkar",
+    "artwork_type": "statue",
+    "loc_name": "CC Heykeli",
+    "name": "Gençlik Anıtı",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 2678730035,
+  "lat": 39.8905122,
+  "lon": 32.7760602,
+  "tags": {
+    "brand": "Şok",
+    "brand:wikidata": "Q19613992",
+    "brand:wikipedia": "tr:Şok (market)",
+    "name": "Şok",
+    "shop": "supermarket"
+  }
+},
+{
+  "type": "node",
+  "id": 2726242227,
+  "lat": 39.8872829,
+  "lon": 32.7683765,
+  "tags": {
+    "name": "Aysel Sabuncu Yaşam Merkezi",
+    "tourism": "guest_house"
+  }
+},
+{
+  "type": "node",
+  "id": 3097200107,
+  "lat": 39.8926237,
+  "lon": 32.7878821,
+  "tags": {
+    "amenity": "atm",
+    "brand": "ING",
+    "brand:wikidata": "Q645708",
+    "fee": "Halk Bankası",
+    "name": "ING",
+    "operator": "ING",
+    "operator:wikidata": "Q645708"
+  }
+},
+{
+  "type": "node",
+  "id": 3097200121,
+  "lat": 39.8927316,
+  "lon": 32.7878593,
+  "tags": {
+    "amenity": "atm",
+    "brand": "HSBC",
+    "brand:wikidata": "Q190464",
+    "fee": "Ziraat Bankası",
+    "name": "HSBC",
+    "operator": "HSBC",
+    "operator:wikidata": "Q190464"
+  }
+},
+{
+  "type": "node",
+  "id": 3097200152,
+  "lat": 39.8926833,
+  "lon": 32.7878714,
+  "tags": {
+    "amenity": "atm",
+    "brand": "Garanti Bankası",
+    "brand:wikidata": "Q322962",
+    "fee": "İş Bankası",
+    "name": "Garanti Bankası",
+    "operator": "Garanti Bankası",
+    "operator:wikidata": "Q322962"
+  }
+},
+{
+  "type": "node",
+  "id": 3373871830,
+  "lat": 39.8949240,
+  "lon": 32.7827837,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Max K. E. Ludwig Planck"
+  }
+},
+{
+  "type": "node",
+  "id": 3373871831,
+  "lat": 39.8949509,
+  "lon": 32.7827797,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Weiner Heisenberg"
+  }
+},
+{
+  "type": "node",
+  "id": 3374081518,
+  "lat": 39.8940763,
+  "lon": 32.7826379,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Charles Darwin"
+  }
+},
+{
+  "type": "node",
+  "id": 3374081519,
+  "lat": 39.8939131,
+  "lon": 32.7829714,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Enrico Fermi"
+  }
+},
+{
+  "type": "node",
+  "id": 3374081520,
+  "lat": 39.8940446,
+  "lon": 32.7826689,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Ernest Rutherford"
+  }
+},
+{
+  "type": "node",
+  "id": 3374081521,
+  "lat": 39.8939773,
+  "lon": 32.7829621,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "J. Robert Oppenheimer"
+  }
+},
+{
+  "type": "node",
+  "id": 3374081522,
+  "lat": 39.8939432,
+  "lon": 32.7829436,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Marie Curie",
+    "subject:wikidata": "Q7186"
+  }
+},
+{
+  "type": "node",
+  "id": 3374081523,
+  "lat": 39.8937784,
+  "lon": 32.7829859,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Robert Boyle",
+    "wikimedia_commons": "File:Robert Boyle bust in METU Campus Ankara Turkey.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 3374081524,
+  "lat": 39.8940137,
+  "lon": 32.7826472,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Wolfgang Pauli"
+  }
+},
+{
+  "type": "node",
+  "id": 3374115333,
+  "lat": 39.8944868,
+  "lon": 32.7826273,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "university",
+    "building": "school",
+    "check_date": "2025-07-13",
+    "name": "Arkeometri Bölümü",
+    "name:en": "Department of Archeometry"
+  }
+},
+{
+  "type": "node",
+  "id": 3374115334,
+  "lat": 39.8943822,
+  "lon": 32.7826459,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "university",
+    "building": "school",
+    "name": "Modern Diller Bölümü",
+    "name:en": "Department of Modern Languages"
+  }
+},
+{
+  "type": "node",
+  "id": 3374115335,
+  "lat": 39.8942713,
+  "lon": 32.7826604,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "university",
+    "building": "school",
+    "check_date": "2025-07-13",
+    "name": "Uygulamalı Matematik Enstitüsü",
+    "name:en": "Institute of Applied Mathematics"
+  }
+},
+{
+  "type": "node",
+  "id": 3396831685,
+  "lat": 39.8872147,
+  "lon": 32.7841264,
+  "tags": {
+    "amenity": "university",
+    "name": "Odtü Jeodezi ve Coğrafi Bilgi Teknolojileri Bölümü (GGIT)"
+  }
+},
+{
+  "type": "node",
+  "id": 3836440363,
+  "lat": 39.8961655,
+  "lon": 32.7817508,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Beşeri Kantini",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 3836440364,
+  "lat": 39.8956551,
+  "lon": 32.7823758,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Matematik Kantini",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4099972190,
+  "lat": 39.8975971,
+  "lon": 32.7742462,
+  "tags": {
+    "alt_name": "Türkiye İş Bankası",
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Türkiye İş Bankası",
+    "brand:wikidata": "Q909613",
+    "name": "Türkiye İş Bankası"
+  }
+},
+{
+  "type": "node",
+  "id": 4099972191,
+  "lat": 39.8975642,
+  "lon": 32.7738707,
+  "tags": {
+    "amenity": "restaurant",
+    "capacity": "100",
+    "name": "Zeytin"
+  }
+},
+{
+  "type": "node",
+  "id": 4257719403,
+  "lat": 39.9001605,
+  "lon": 32.7738507,
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:housenumber": "13",
+    "addr:postcode": "06531",
+    "addr:street": "Odtu Teknokent Silikon Blok",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "name": "CafeMount",
+    "operator": "stockmount",
+    "smoking": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4257720848,
+  "lat": 39.9000946,
+  "lon": 32.7738426,
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:housenumber": "StockMount",
+    "addr:postcode": "06531",
+    "addr:street": "Odtu Teknokent Silikon Blok No 13",
+    "name": "StockMount",
+    "office": "company",
+    "website": "https://www.stockmount.com"
+  }
+},
+{
+  "type": "node",
+  "id": 4327395490,
+  "lat": 39.8932850,
+  "lon": 32.7825948,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "internet_access": "wlan",
+    "name": "Kimya Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 4396568191,
+  "lat": 39.9094227,
+  "lon": 32.7947181,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "cuisine": "burger",
+    "name": "Burger King",
+    "name:en": "Burger King",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4457774276,
+  "lat": 39.9099839,
+  "lon": 32.7753922,
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:housenumber": "164",
+    "addr:street": "Eskişehir Yolu 7. Km. Kentpark Alışveriş Merkezi",
+    "name": "Jolly Tours",
+    "operator": "Duka Turizm",
+    "phone": "+90 312 212 16 16",
+    "shop": "travel_agency"
+  }
+},
+{
+  "type": "node",
+  "id": 4622453639,
+  "lat": 39.8918017,
+  "lon": 32.7835588,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "cuisine": "coffee_shop;sandwich",
+    "level": "-1",
+    "name": "Bilgisayar Mühendisliği Kantini",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4622453640,
+  "lat": 39.8923202,
+  "lon": 32.7832652,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "internet_access": "wlan",
+    "name": "Mühendislik Merkez Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 4622453641,
+  "lat": 39.9080488,
+  "lon": 32.7838684,
+  "tags": {
+    "artist_name": "Tamer Başoğlu",
+    "artwork_type": "sculpture",
+    "material": "concrete",
+    "name": "Bilim Ağacı",
+    "name:en": "Tree of Science",
+    "start_date": "1966",
+    "tourism": "artwork",
+    "wikidata": "Q7837614",
+    "wikimedia_commons": "Category:Bilim Ağacı by Tamer Başoğlu",
+    "wikipedia": "tr:Bilim Ağacı"
+  }
+},
+{
+  "type": "node",
+  "id": 4622591842,
+  "lat": 39.8943903,
+  "lon": 32.7840782,
+  "tags": {
+    "historic": "monument",
+    "name": "2 Aralık Anıtı"
+  }
+},
+{
+  "type": "node",
+  "id": 4622591843,
+  "lat": 39.8928228,
+  "lon": 32.7837376,
+  "tags": {
+    "historic": "monument",
+    "name": "Hayalet Bisiklet Anıtı"
+  }
+},
+{
+  "type": "node",
+  "id": 4622591847,
+  "lat": 39.8937123,
+  "lon": 32.7852218,
+  "tags": {
+    "artwork_type": "sculpture",
+    "name": "Bilim Işığında Kanatlanan Hezarfen Ahmet Efendi Heykeli",
+    "start_date": "2016",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 4622591848,
+  "lat": 39.8923962,
+  "lon": 32.7823672,
+  "tags": {
+    "historic": "memorial",
+    "name": "Mustafa Parlar Anıtı",
+    "start_date": "1982"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731256,
+  "lat": 39.8895581,
+  "lon": 32.7889687,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "4. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "4. Yurt Kantini",
+    "name:en": "4th Dorm Canteen"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731257,
+  "lat": 39.8898090,
+  "lon": 32.7882795,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "3. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "3. Yurt Kantini",
+    "name:en": "3rd Dorm Canteen"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731258,
+  "lat": 39.8891124,
+  "lon": 32.7899164,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "5. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "5. Yurt Kantini",
+    "name:en": "5th Dorm Canteen"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731259,
+  "lat": 39.8890547,
+  "lon": 32.7890836,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "7. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "7. Yurt Kantini",
+    "name:en": "7th Dorm Canteen"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731260,
+  "lat": 39.8888785,
+  "lon": 32.7882684,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "8. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "8. Yurt Kantini",
+    "name:en": "8th Dorm Canteen"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731261,
+  "lat": 39.8905190,
+  "lon": 32.7883875,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "1. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "cuisine": "chicken;pasta;pizza",
+    "indoor_seating": "yes",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "level": "1",
+    "name": "1. Yurt Kantini",
+    "name:en": "1st Dorm Canteen",
+    "opening_hours": "Sep-Jul 09:00-24:00",
+    "outdoor_seating": "no",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731262,
+  "lat": 39.8879191,
+  "lon": 32.7904532,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "9. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "9. Yurt Kantini",
+    "name:en": "9th Dorm Canteen"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731263,
+  "lat": 39.8884022,
+  "lon": 32.7899915,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "6. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "6. Yurt Kantini",
+    "name:en": "6th Dorm Canteen"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731264,
+  "lat": 39.8885368,
+  "lon": 32.7887219,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "Geliştirme Vakfı Konukevi",
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "brand": "Komagene",
+    "brand:wikidata": "Q108919263",
+    "cuisine": "kebab",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Komagene",
+    "name:en": "EBİ-2 Canteen",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731267,
+  "lat": 39.8897868,
+  "lon": 32.7906368,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Kocatepe Kahve Evi",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731268,
+  "lat": 39.8926327,
+  "lon": 32.7884385,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "internet_access": "wlan",
+    "level": "-1",
+    "name": "Coffee 101",
+    "outdoor_seating": "no",
+    "smoking": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4622731279,
+  "lat": 39.8921057,
+  "lon": 32.7879440,
+  "tags": {
+    "amenity": "bank",
+    "atm": "yes",
+    "brand": "Garanti Bankası",
+    "brand:wikidata": "Q322962",
+    "brand:wikipedia": "en:Garanti BBVA",
+    "name": "Garanti Bankası"
+  }
+},
+{
+  "type": "node",
+  "id": 4622917821,
+  "lat": 39.8981806,
+  "lon": 32.7828811,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "İİBF Kantini (Gizem Cafe)"
+  }
+},
+{
+  "type": "node",
+  "id": 4622917822,
+  "lat": 39.8976188,
+  "lon": 32.7817599,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Mimarlık Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 4622917823,
+  "lat": 39.8958101,
+  "lon": 32.7800138,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Biyoloji Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 4622983577,
+  "lat": 39.8922406,
+  "lon": 32.7878716,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "restaurant",
+    "cuisine": "turkish;dessert;ice_cream",
+    "level": "-1",
+    "name": "Zeynel Çilli",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4622983578,
+  "lat": 39.8926657,
+  "lon": 32.7883671,
+  "tags": {
+    "addr:postcode": "06800",
+    "level": "0",
+    "name": "Öykücü Kitabevi",
+    "shop": "books",
+    "source": "survey"
+  }
+},
+{
+  "type": "node",
+  "id": 4622983579,
+  "lat": 39.8924414,
+  "lon": 32.7884246,
+  "tags": {
+    "level": "0",
+    "name": "Kampüs Kırtasiye",
+    "shop": "stationery"
+  }
+},
+{
+  "type": "node",
+  "id": 4622983580,
+  "lat": 39.8924740,
+  "lon": 32.7884574,
+  "tags": {
+    "level": "-1",
+    "name": "Technoart",
+    "shop": "copyshop"
+  }
+},
+{
+  "type": "node",
+  "id": 4623014828,
+  "lat": 39.8918136,
+  "lon": 32.7831816,
+  "tags": {
+    "level": "-1",
+    "name": "Dereağzı Kırtasiye",
+    "opening_hours": "Mo-Fr 09:00-17:00; PH closed",
+    "operator": "Dereağzı",
+    "shop": "copyshop",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "node",
+  "id": 4623014831,
+  "lat": 39.8903691,
+  "lon": 32.7834120,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "name": "İnşaat Mühendisliği Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 4623014832,
+  "lat": 39.8955219,
+  "lon": 32.7830746,
+  "tags": {
+    "level": "0",
+    "name": "Campus",
+    "shop": "copyshop"
+  }
+},
+{
+  "type": "node",
+  "id": 4623055079,
+  "lat": 39.8927360,
+  "lon": 32.7882093,
+  "tags": {
+    "level": "-1",
+    "name": "Dereağzı Fotokopi",
+    "shop": "copyshop"
+  }
+},
+{
+  "type": "node",
+  "id": 4623055082,
+  "lat": 39.8926245,
+  "lon": 32.7881490,
+  "tags": {
+    "amenity": "cafe",
+    "level": "1",
+    "name": "Teras Cafe"
+  }
+},
+{
+  "type": "node",
+  "id": 4623055083,
+  "lat": 39.8930833,
+  "lon": 32.7880096,
+  "tags": {
+    "addr:postcode": "06800",
+    "name": "Tenis Kortları Büfesi",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 4623060234,
+  "lat": 39.8920575,
+  "lon": 32.7883958,
+  "tags": {
+    "addr:postcode": "06800",
+    "name": "ODTÜDEN",
+    "opening_hours": "Mo-Fr 08:45-17:00",
+    "shop": "books"
+  }
+},
+{
+  "type": "node",
+  "id": 4623060235,
+  "lat": 39.8918125,
+  "lon": 32.7888813,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "level": "0",
+    "name": "Coffee Break"
+  }
+},
+{
+  "type": "node",
+  "id": 4623064865,
+  "lat": 39.8926945,
+  "lon": 32.7822211,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "Çatı",
+    "toilet": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4623064866,
+  "lat": 39.8947195,
+  "lon": 32.7841470,
+  "tags": {
+    "amenity": "university",
+    "loc_name": "Öğrenci İşleri",
+    "name": "Öğrenci İşleri Daire Başkanlığı",
+    "name:en": "Registrar's Office",
+    "office": "educational_institution",
+    "short_name": "ÖİDB"
+  }
+},
+{
+  "type": "node",
+  "id": 4627537413,
+  "lat": 39.8936144,
+  "lon": 32.7831826,
+  "tags": {
+    "historic": "memorial",
+    "memorial": "bust",
+    "name": "Isaac Newton",
+    "wikimedia_commons": "File:Sir Isaac Newton bust in METU Campus Ankara Turkey.jpg"
+  }
+},
+{
+  "type": "node",
+  "id": 4627537415,
+  "lat": 39.8924386,
+  "lon": 32.7883506,
+  "tags": {
+    "amenity": "fast_food",
+    "cuisine": "turkish",
+    "level": "0",
+    "name": "Hocam Kumpir"
+  }
+},
+{
+  "type": "node",
+  "id": 4627537416,
+  "lat": 39.8924690,
+  "lon": 32.7883515,
+  "tags": {
+    "amenity": "fast_food",
+    "level": "-1",
+    "name": "Chicken Run"
+  }
+},
+{
+  "type": "node",
+  "id": 4627537417,
+  "lat": 39.8925677,
+  "lon": 32.7882160,
+  "tags": {
+    "leisure": "amusement_arcade",
+    "level": "-1",
+    "name": "Blackball",
+    "sport": "billiards"
+  }
+},
+{
+  "type": "node",
+  "id": 4627537418,
+  "lat": 39.8925434,
+  "lon": 32.7884523,
+  "tags": {
+    "amenity": "fast_food",
+    "level": "-1",
+    "name": "Makara"
+  }
+},
+{
+  "type": "node",
+  "id": 4627537419,
+  "lat": 39.8926936,
+  "lon": 32.7883317,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "kebab",
+    "level": "1",
+    "name": "Kebap 1956"
+  }
+},
+{
+  "type": "node",
+  "id": 4627537430,
+  "lat": 39.8934165,
+  "lon": 32.7817908,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "university",
+    "building": "school",
+    "check_date": "2025-07-13",
+    "name": "İstatistik Bölümü",
+    "name:en": "Department of Statistics"
+  }
+},
+{
+  "type": "node",
+  "id": 4627563610,
+  "lat": 39.8890619,
+  "lon": 32.7871200,
+  "tags": {
+    "amenity": "atm",
+    "check_date": "2024-03-21",
+    "level": "0",
+    "name": "Cüzdanmatik"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974435,
+  "lat": 39.9096108,
+  "lon": 32.7784502,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Tchibo"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974441,
+  "lat": 39.9098787,
+  "lon": 32.7787202,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Tadım Pizza"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974442,
+  "lat": 39.9096108,
+  "lon": 32.7781632,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Gloria Jean's",
+    "brand:wikidata": "Q2666365",
+    "brand:wikipedia": "en:Gloria Jean's Coffees",
+    "cuisine": "coffee_shop",
+    "name": "Gloria Jean's",
+    "official_name": "Gloria Jean's Coffees",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974444,
+  "lat": 39.9096169,
+  "lon": 32.7778923,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes",
+    "website": "https://www.starbucks.co.uk/store-locator/31890-114972/cepa-avm"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974449,
+  "lat": 39.9098330,
+  "lon": 32.7778977,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "name": "McDonald's",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974475,
+  "lat": 39.9098515,
+  "lon": 32.7771306,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "HD İskender"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974476,
+  "lat": 39.9095387,
+  "lon": 32.7771306,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Subway",
+    "brand:wikidata": "Q244457",
+    "brand:wikipedia": "en:Subway (restaurant)",
+    "cuisine": "sandwich",
+    "name": "Subway",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974477,
+  "lat": 39.9092754,
+  "lon": 32.7770930,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Popeyes",
+    "brand:wikidata": "Q1330910",
+    "brand:wikipedia": "en:Popeyes",
+    "cuisine": "chicken",
+    "name": "Popeyes",
+    "official_name": "Popeyes Louisiana Kitchen",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974479,
+  "lat": 39.9091849,
+  "lon": 32.7763742,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "Burger King",
+    "brand:wikidata": "Q177054",
+    "brand:wikipedia": "en:Burger King",
+    "cuisine": "burger",
+    "name": "Burger King",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974480,
+  "lat": 39.9090450,
+  "lon": 32.7758968,
+  "tags": {
+    "amenity": "fast_food",
+    "brand": "McDonald's",
+    "brand:wikidata": "Q38076",
+    "brand:wikipedia": "en:McDonald's",
+    "cuisine": "burger",
+    "name": "McDonald's",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974484,
+  "lat": 39.9095058,
+  "lon": 32.7754783,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Mado",
+    "brand:wikidata": "Q17116336",
+    "brand:wikipedia": "en:Mado (food company)",
+    "cuisine": "coffee_shop",
+    "name": "Mado",
+    "takeaway": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974485,
+  "lat": 39.9092384,
+  "lon": 32.7755266,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Demlik"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974486,
+  "lat": 39.9097445,
+  "lon": 32.7754140,
+  "tags": {
+    "amenity": "cinema",
+    "name": "Kentpark Prestige"
+  }
+},
+{
+  "type": "node",
+  "id": 4678974487,
+  "lat": 39.9089462,
+  "lon": 32.7756017,
+  "tags": {
+    "amenity": "cafe",
+    "brand": "Starbucks",
+    "brand:wikidata": "Q37158",
+    "brand:wikipedia": "en:Starbucks",
+    "cuisine": "coffee_shop",
+    "name": "Starbucks",
+    "official_name": "Starbucks Coffee",
+    "takeaway": "yes",
+    "website": "https://www.starbucks.co.uk/store-locator/6127-149564/kentpark-avm"
+  }
+},
+{
+  "type": "node",
+  "id": 4699018046,
+  "lat": 39.9091820,
+  "lon": 32.7902460,
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:country": "TR",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "122",
+    "addr:neighbourhood": "Söğütözü Mahallesi",
+    "addr:postcode": "06530",
+    "addr:street": "Eskişehir Yolu 5. Km.",
+    "amenity": "fuel",
+    "brand": "Opet",
+    "brand:wikidata": "Q7072824",
+    "brand:wikipedia": "en:Opet",
+    "contact:fax": "+90 3122850168",
+    "contact:phone": "+90 3122869500",
+    "fuel:diesel": "yes",
+    "fuel:lpg": "yes",
+    "name": "Opet Çankaya",
+    "operator": "Opet Petrolcülük A.Ş.",
+    "source": "Yellow Pages Türkiye",
+    "website": "https://www.opet.com.tr/"
+  }
+},
+{
+  "type": "node",
+  "id": 5282104274,
+  "lat": 39.8966378,
+  "lon": 32.7755038,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Rutil Kafe"
+  }
+},
+{
+  "type": "node",
+  "id": 6216272315,
+  "lat": 39.8974927,
+  "lon": 32.7762354,
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "5",
+    "addr:neighbourhood": "Üniversiteler Mahallesi",
+    "addr:postcode": "06800",
+    "addr:street": "Teknokent İç Servis Yolları",
+    "email": "info@geosys.com.tr",
+    "fax": "+90 312 210 17 62",
+    "name": "Geosys Yazılım",
+    "office": "company",
+    "opening_hours": "24/7",
+    "phone": "+90 312 210 17 20",
+    "smoking": "no",
+    "website": "https://www.geosys.com.tr/"
+  }
+},
+{
+  "type": "node",
+  "id": 6310461017,
+  "lat": 39.8942699,
+  "lon": 32.7831843,
+  "tags": {
+    "artwork_type": "sculpture",
+    "material": "metal",
+    "name": "Kemal Kurdaş Heykeli",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 6344719085,
+  "lat": 39.9095224,
+  "lon": 32.7948475,
+  "tags": {
+    "amenity": "fuel",
+    "brand": "BP",
+    "brand:wikidata": "Q152057",
+    "brand:wikipedia": "en:BP",
+    "fixme": "check brand, BP in Turkey is acquired by Petrol Ofisi. Don't delete fixme if still BP please.",
+    "name": "BP"
+  }
+},
+{
+  "type": "node",
+  "id": 6515304570,
+  "lat": 39.9094362,
+  "lon": 32.7932432,
+  "tags": {
+    "amenity": "fuel",
+    "brand": "Shell",
+    "brand:wikidata": "Q110716465",
+    "brand:wikipedia": "en:Royal Dutch Shell",
+    "name": "Shell",
+    "name:en": "Shell",
+    "operator": "Türk A.Ş.",
+    "source": "mapbox",
+    "toilets:wheelchair": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6949476343,
+  "lat": 39.9021515,
+  "lon": 32.7734009,
+  "tags": {
+    "addr:city": "Üniversiteler Mahallesi",
+    "addr:neighbourhood": "ODTÜ, Yabancı Diller Eğitimi Bölümü, Üniversiteler, WQ2F+W5, 06800 Çankaya/Ankara",
+    "addr:postcode": "06800",
+    "amenity": "cafe",
+    "cuisine": "sandwich;burger",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Black Cafe (Kantin)",
+    "opening_hours": "08:30-17:30",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 6949476344,
+  "lat": 39.8928312,
+  "lon": 32.7850351,
+  "tags": {
+    "amenity": "fountain",
+    "name": "C Heykeli"
+  }
+},
+{
+  "type": "node",
+  "id": 6960326185,
+  "lat": 39.8924804,
+  "lon": 32.7879088,
+  "tags": {
+    "amenity": "atm",
+    "brand": "Türkiye İş Bankası",
+    "brand:wikidata": "Q909613",
+    "name": "Türkiye İş Bankası",
+    "operator": "Türkiye İş Bankası",
+    "operator:wikidata": "Q909613"
+  }
+},
+{
+  "type": "node",
+  "id": 7025272399,
+  "lat": 39.8955564,
+  "lon": 32.7800090,
+  "tags": {
+    "amenity": "research_institute",
+    "check_date": "2025-07-13",
+    "description": "Moleküler Biyoloji ve Biyoteknoloji AR-GE Merkezi",
+    "name": "ODTÜ Merkez Laboratuvarı"
+  }
+},
+{
+  "type": "node",
+  "id": 7077951373,
+  "lat": 39.9095470,
+  "lon": 32.7803310,
+  "tags": {
+    "addr:city": "ÇANKAYA",
+    "addr:province": "ANKARA",
+    "addr:street": "Mustafa Kemal Mahallesi Dumlupınar Bulvarı\\r\\n(Eskişehir Yolu 7.km",
+    "amenity": "charging_station",
+    "amperage": "32",
+    "authentication:membership_card": "yes",
+    "fee": "yes",
+    "motorcar": "yes",
+    "name": "SHARZ T.C. Sanayi ve Teknoloji Bakanlığı",
+    "opening_hours": "24/7",
+    "operator": "SHARZ",
+    "socket:type2": "1",
+    "voltage": "400"
+  }
+},
+{
+  "type": "node",
+  "id": 9320989392,
+  "lat": 39.8926669,
+  "lon": 32.7817239,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "name": "Kantin"
+  }
+},
+{
+  "type": "node",
+  "id": 9320989393,
+  "lat": 39.8913601,
+  "lon": 32.7824823,
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "fast_food",
+    "name": "Kantin"
+  }
+},
+{
+  "type": "node",
+  "id": 9321031040,
+  "lat": 39.8906429,
+  "lon": 32.7825205,
+  "tags": {
+    "amenity": "place_of_worship",
+    "name": "Mescit",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "node",
+  "id": 9422789842,
+  "lat": 39.8941261,
+  "lon": 32.7946621,
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "47",
+    "addr:neighbourhood": "İşçi Blokları",
+    "addr:street": "1538. Cadde",
+    "amenity": "clinic",
+    "healthcare": "clinic",
+    "name": "100. Yıl Aile Sağlığı Merkezi",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+90 312 284 66 22",
+    "short_name": "100. Yıl ASM",
+    "website": "https://cankayakaymakamligi.gov.tr/aile-sagligi-merkezi"
+  }
+},
+{
+  "type": "node",
+  "id": 9827382798,
+  "lat": 39.9044577,
+  "lon": 32.7925692,
+  "tags": {
+    "leisure": "park",
+    "name": "Çansera Kent Bahçesi"
+  }
+},
+{
+  "type": "node",
+  "id": 9969195523,
+  "lat": 39.8980526,
+  "lon": 32.7703899,
+  "tags": {
+    "amenity": "restaurant",
+    "cuisine": "turkish",
+    "name": "Megabite"
+  }
+},
+{
+  "type": "node",
+  "id": 10214597190,
+  "lat": 39.8918825,
+  "lon": 32.7887067,
+  "tags": {
+    "amenity": "cafe",
+    "cuisine": "coffee_shop",
+    "name": "Solway"
+  }
+},
+{
+  "type": "node",
+  "id": 10214597191,
+  "lat": 39.8926900,
+  "lon": 32.7881873,
+  "tags": {
+    "amenity": "restaurant",
+    "name": "ODTÜ Central"
+  }
+},
+{
+  "type": "node",
+  "id": 10235679146,
+  "lat": 39.9067979,
+  "lon": 32.7813986,
+  "tags": {
+    "historic": "ruins",
+    "name": "ODTÜ Bilim Ağacı İlk Yeri",
+    "name:en": "METU Tree of Science Old Site"
+  }
+},
+{
+  "type": "node",
+  "id": 10236282439,
+  "lat": 39.8916893,
+  "lon": 32.7826205,
+  "tags": {
+    "artwork_type": "mural",
+    "name": "Ahmet Atakan Anıtı",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 10606003105,
+  "lat": 39.9092949,
+  "lon": 32.7640946,
+  "tags": {
+    "amenity": "pharmacy",
+    "healthcare": "pharmacy",
+    "name": "Maidan Kuzucu Eczanesi",
+    "phone": "+90 312 502 70 77"
+  }
+},
+{
+  "type": "node",
+  "id": 11033893209,
+  "lat": 39.8921413,
+  "lon": 32.7884561,
+  "tags": {
+    "amenity": "cafe",
+    "bar": "no",
+    "check_date": "2023-07-08",
+    "cuisine": "do",
+    "delivery": "no",
+    "indoor_seating": "yes",
+    "level": "0",
+    "name": "Grano",
+    "outdoor_seating": "yes",
+    "takeaway": "only",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11090467948,
+  "lat": 39.8974303,
+  "lon": 32.7762222,
+  "tags": {
+    "name": "Evreka",
+    "office": "company",
+    "website": "https://evreka.co/tr/"
+  }
+},
+{
+  "type": "node",
+  "id": 11090472615,
+  "lat": 39.8974504,
+  "lon": 32.7759079,
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "33",
+    "addr:neighbourhood": "Üniversiteler Mahallesi",
+    "addr:postcode": "06800",
+    "addr:street": "Halıcı Yazılımevi",
+    "email": "info@issd.com.tr",
+    "internet_access": "wlan",
+    "name": "ISSD Bilişim Elektronik A.Ş.",
+    "office": "company",
+    "opening_hours": "Mo-Fr 09:00-19:00",
+    "phone": "+90 312 210 00 15",
+    "website": "https://www.issd.com.tr/"
+  }
+},
+{
+  "type": "node",
+  "id": 11090475323,
+  "lat": 39.8976584,
+  "lon": 32.7758873,
+  "tags": {
+    "name": "Netaş Bilişim A.Ş.",
+    "office": "company",
+    "website": "https://netasbilisim.com.tr/"
+  }
+},
+{
+  "type": "node",
+  "id": 11090483107,
+  "lat": 39.8975272,
+  "lon": 32.7759110,
+  "tags": {
+    "name": "V-Count",
+    "office": "company",
+    "website": "https://v-count.com/"
+  }
+},
+{
+  "type": "node",
+  "id": 11712013920,
+  "lat": 39.8988493,
+  "lon": 32.7782827,
+  "tags": {
+    "amenity": "cafe",
+    "name": "Thila Coffee",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "outdoor_seating": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11843456660,
+  "lat": 39.8919847,
+  "lon": 32.7778905,
+  "tags": {
+    "level": "1",
+    "name": "Confucius Institute",
+    "office": "educational_institution",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 11898676570,
+  "lat": 39.8986799,
+  "lon": 32.7752724,
+  "tags": {
+    "amenity": "parcel_locker",
+    "brand": "PTT Kargomat",
+    "colour": "#ffff00",
+    "name": "ODTÜ Teknokent",
+    "operator": "PTT",
+    "parcel_pickup": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "node",
+  "id": 12222467601,
+  "lat": 39.9073762,
+  "lon": 32.7649153,
+  "tags": {
+    "addr:street": "Dumlupınar Bulvarı",
+    "name": "Büfecim Büfe",
+    "opening_hours": "24/7",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 12222475201,
+  "lat": 39.9069436,
+  "lon": 32.7638871,
+  "tags": {
+    "addr:street": "Beytepe Köyü Yolu",
+    "name": "Yıldırım Büfe",
+    "opening_hours": "24/7",
+    "shop": "kiosk"
+  }
+},
+{
+  "type": "node",
+  "id": 12222481701,
+  "lat": 39.9065823,
+  "lon": 32.7640583,
+  "tags": {
+    "addr:street": "Beytepe Köyü Yolu",
+    "amenity": "fast_food",
+    "cuisine": "barbecue",
+    "name": "Bilkent Sokak Lezzetleri",
+    "opening_hours": "Mo-Su 18:00-05:00",
+    "phone": "+90 312 286 98 86"
+  }
+},
+{
+  "type": "node",
+  "id": 12803119889,
+  "lat": 39.8927349,
+  "lon": 32.7820679,
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:postcode": "06800",
+    "addr:street": "Orta Doğu Teknik Üniversitesi",
+    "name": "International Cooperations Office (ICO)",
+    "name:tr": "Uluslararsı İşbirliği Ofisi",
+    "office": "educational_institution",
+    "opening_hours": "10-12, 14-16",
+    "website": "https://ico.metu.edu.tr"
+  }
+},
+{
+  "type": "node",
+  "id": 12919058115,
+  "lat": 39.8968201,
+  "lon": 32.7750168,
+  "tags": {
+    "name": "Milsoft",
+    "office": "company"
+  }
+},
+{
+  "type": "node",
+  "id": 13015323273,
+  "lat": 39.9099562,
+  "lon": 32.7773633,
+  "tags": {
+    "access": "yes",
+    "amenity": "charging_station",
+    "brand": "Tesla Supercharger",
+    "brand:wikidata": "Q17089620",
+    "capacity": "12",
+    "fee": "yes",
+    "name": "Cankaya Ankara Supercharger",
+    "opening_hours": "24/7",
+    "operator": "Tesla",
+    "operator:wikidata": "Q478214",
+    "ref:tesla": "453220",
+    "socket:type2_combo": "12",
+    "socket:type2_combo:output": "250 kW",
+    "website": "https://www.tesla.com/findus/location/supercharger/453220"
+  }
+},
+{
+  "type": "node",
+  "id": 13056239180,
+  "lat": 39.8891603,
+  "lon": 32.7825020,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Makina B Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 13056239181,
+  "lat": 39.8892103,
+  "lon": 32.7809311,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Makina G Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 13056239198,
+  "lat": 39.8859086,
+  "lon": 32.7802805,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Maden Mühendisliği Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 13056244844,
+  "lat": 39.8938568,
+  "lon": 32.7853960,
+  "tags": {
+    "artwork_type": "mural",
+    "name": "ODTÜ Logosu",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "node",
+  "id": 13056244998,
+  "lat": 39.9002859,
+  "lon": 32.7808806,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Hazırlık B Kantin"
+  }
+},
+{
+  "type": "node",
+  "id": 13056244999,
+  "lat": 39.9005066,
+  "lon": 32.7799865,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Hazırlık E Kantin"
+  }
+},
+{
+  "type": "node",
+  "id": 13057959107,
+  "lat": 39.8952416,
+  "lon": 32.7833574,
+  "tags": {
+    "amenity": "university",
+    "name": "ODTÜ Müzik ve Güzel Sanatlar Bölümü"
+  }
+},
+{
+  "type": "node",
+  "id": 13057959108,
+  "lat": 39.8883122,
+  "lon": 32.7915334,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "9. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Osman Yazıcı Konukevi Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 13057959109,
+  "lat": 39.8878507,
+  "lon": 32.7916137,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "9. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Faik Hızıroğlu Konukevi Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 13057959110,
+  "lat": 39.8885788,
+  "lon": 32.7917146,
+  "tags": {
+    "addr:city": "Çankaya",
+    "addr:housename": "9. Yurt",
+    "addr:postcode": "06800",
+    "amenity": "cafe",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "15. Konukevi Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 13060895216,
+  "lat": 39.8857182,
+  "lon": 32.7774093,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "19. Yurt Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 13060895217,
+  "lat": 39.8847005,
+  "lon": 32.7773648,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Refika Aksoy Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 13060895219,
+  "lat": 39.8873145,
+  "lon": 32.7771122,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "İsa Demiray Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 13060895220,
+  "lat": 39.8865310,
+  "lon": 32.7774385,
+  "tags": {
+    "amenity": "fast_food",
+    "name": "Faika Demiray Kantini"
+  }
+},
+{
+  "type": "node",
+  "id": 13720211118,
+  "lat": 39.9091817,
+  "lon": 32.7735402,
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "No:166",
+    "addr:neighbourhood": "Mustafa Kemal Mahallesi",
+    "addr:postcode": "06510",
+    "addr:street": "Dumlupınar Bulvarı",
+    "name": "EÜAŞ Genel Müdürlüğü",
+    "office": "government",
+    "opening_hours": "Mo-Fr 08:30-17:30",
+    "phone": "+903122129550",
+    "website": "https://www.euas.gov.tr"
+  }
+},
+{
+  "type": "node",
+  "id": 14068509258,
+  "lat": 39.8977110,
+  "lon": 32.7739508,
+  "tags": {
+    "name": "Atom",
+    "office": "it",
+    "website": "https://atom.org.tr/"
+  }
+},
+{
+  "type": "node",
+  "id": 14125847602,
+  "lat": 39.9099978,
+  "lon": 32.7914512,
+  "tags": {
+    "addr:housenumber": "19",
+    "addr:postcode": "06510",
+    "addr:street": "2176. Cadde",
+    "name": "Freddo Coffee Shop",
+    "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 11:00-22:00",
+    "shop": "coffee",
+    "website": "http://kahvedunyan.com"
+  }
+},
+{
+  "type": "node",
+  "id": 14239842194,
+  "lat": 39.8905633,
+  "lon": 32.7884161,
+  "tags": {
+    "amenity": "clinic",
+    "building": "university",
+    "healthcare": "clinic",
+    "level": "0",
+    "name": "Mediko D Blok",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 13292014,
+  "center": {
+    "lat": 39.9020350,
+    "lon": 32.7940910
+  },
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "Özel Arı Okulları"
+  }
+},
+{
+  "type": "way",
+  "id": 25893775,
+  "center": {
+    "lat": 39.8891876,
+    "lon": 32.7855218
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Halısaha",
+    "source": "mapbox",
+    "sport": "soccer",
+    "surface": "artificial_turf"
+  }
+},
+{
+  "type": "way",
+  "id": 28115938,
+  "center": {
+    "lat": 39.8916453,
+    "lon": 32.7864494
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 28115942,
+  "center": {
+    "lat": 39.8919668,
+    "lon": 32.7861470
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 28115990,
+  "center": {
+    "lat": 39.8913917,
+    "lon": 32.7875727
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Büyük Spor Salonu",
+    "sport": "basketball;climbing;volleyball",
+    "wheelchair": "limited",
+    "wikimedia_commons": "Category:Middle East Technical University Sports Hall"
+  }
+},
+{
+  "type": "way",
+  "id": 28115994,
+  "center": {
+    "lat": 39.8885235,
+    "lon": 32.7866880
+  },
+  "tags": {
+    "access": "private",
+    "covered": "no",
+    "fee": "yes",
+    "leisure": "swimming_pool",
+    "name": "Açık Yüzme Havuzu",
+    "name:en": "Outdoor Swimming Pool",
+    "sport": "swimming"
+  }
+},
+{
+  "type": "way",
+  "id": 28116009,
+  "center": {
+    "lat": 39.8908944,
+    "lon": 32.7870192
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Basketbol Sahaları",
+    "sport": "basketball"
+  }
+},
+{
+  "type": "way",
+  "id": 28116011,
+  "center": {
+    "lat": 39.8913808,
+    "lon": 32.7881405
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 28243990,
+  "center": {
+    "lat": 39.8942095,
+    "lon": 32.7870830
+  },
+  "tags": {
+    "amenity": "parking",
+    "name": "KKM Otopark",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 56753995,
+  "center": {
+    "lat": 39.8956954,
+    "lon": 32.7822556
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "yes",
+    "name": "Matematik Bölümü",
+    "name:en": "Department of Mathematics",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 57910019,
+  "center": {
+    "lat": 39.8925365,
+    "lon": 32.7883429
+  },
+  "tags": {
+    "building": "university",
+    "check_date": "2025-05-24",
+    "loc_name": "Çarşı",
+    "name": "Çarşı",
+    "shop": "mall",
+    "wheelchair": "no"
+  }
+},
+{
+  "type": "way",
+  "id": 58076852,
+  "center": {
+    "lat": 39.8908598,
+    "lon": 32.7887605
+  },
+  "tags": {
+    "amenity": "clinic",
+    "building": "university",
+    "healthcare": "clinic",
+    "name": "Mediko",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "way",
+  "id": 58078347,
+  "center": {
+    "lat": 39.8926790,
+    "lon": 32.7866445
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "ODTÜ Bahar Parkı"
+  }
+},
+{
+  "type": "way",
+  "id": 90288100,
+  "center": {
+    "lat": 39.8936963,
+    "lon": 32.7832728
+  },
+  "tags": {
+    "building": "university",
+    "information": "office",
+    "name": "Odtü Tanıtım Ofisi",
+    "tourism": "information"
+  }
+},
+{
+  "type": "way",
+  "id": 208600863,
+  "center": {
+    "lat": 39.8957659,
+    "lon": 32.7832064
+  },
+  "tags": {
+    "addr:housename": "Odtü Kütüphane",
+    "amenity": "library",
+    "baby_feeding": "no",
+    "building": "yes",
+    "email": "lib-hot-line@metu.edu.tr",
+    "fax": "+90 312 210 27 78",
+    "internet_access": "yes",
+    "internet_access:fee": "no",
+    "loc_name": "kütüp",
+    "name": "ODTÜ Kütüphane",
+    "name:en": "METU Library",
+    "opening_hours": "24/7",
+    "payment:account_cards": "yes",
+    "phone": "+90 312 210 27 79",
+    "polling_station": "no",
+    "website": "http://lib.metu.edu.tr/",
+    "wheelchair": "yes",
+    "wikimedia_commons": "Category:Library of Middle East Technical University"
+  }
+},
+{
+  "type": "way",
+  "id": 221349042,
+  "center": {
+    "lat": 39.8986478,
+    "lon": 32.7736149
+  },
+  "tags": {
+    "access": "customers",
+    "amenity": "parking",
+    "fee": "no",
+    "name": "Silikon Blok Otopark",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 221349046,
+  "center": {
+    "lat": 39.8975814,
+    "lon": 32.7747334
+  },
+  "tags": {
+    "amenity": "parking",
+    "name": "Galyum Blok Otopark",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 221349050,
+  "center": {
+    "lat": 39.8964226,
+    "lon": 32.7745529
+  },
+  "tags": {
+    "amenity": "parking",
+    "name": "MilSoft Otopark",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 221349052,
+  "center": {
+    "lat": 39.8970965,
+    "lon": 32.7747286
+  },
+  "tags": {
+    "amenity": "parking",
+    "name": "Galyum Blok Otopark",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 225752615,
+  "center": {
+    "lat": 39.8913650,
+    "lon": 32.7837988
+  },
+  "tags": {
+    "access": "private",
+    "amenity": "parking",
+    "name": "Bilgisayar Mühendisliği Otoparkı",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 225752638,
+  "center": {
+    "lat": 39.8853833,
+    "lon": 32.7839759
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "check_date": "2025-04-27",
+    "name": "Odtü Mescit",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 227136122,
+  "center": {
+    "lat": 39.8971527,
+    "lon": 32.7922590
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "ODTÜ Mezunları Derneği"
+  }
+},
+{
+  "type": "way",
+  "id": 229130850,
+  "center": {
+    "lat": 39.8937215,
+    "lon": 32.7839564
+  },
+  "tags": {
+    "amenity": "cafe",
+    "bar": "no",
+    "building": "yes",
+    "capacity": "1500",
+    "changing_table": "no",
+    "cuisine": "turkish;greek",
+    "delivery": "no",
+    "diet:halal": "yes",
+    "diet:vegan": "yes",
+    "diet:vegetarian": "yes",
+    "drive_through": "no",
+    "email": "kafm@metu.edu.tr",
+    "fax": "+90 312 210 7989",
+    "int_name": "Cafeteria",
+    "internet_access": "wlan",
+    "internet_access:fee": "no",
+    "name": "Kafeterya",
+    "phone": "+90 312 210 3643",
+    "smoking": "no",
+    "takeaway": "no",
+    "toilets": "yes",
+    "website": "https://kafeterya.metu.edu.tr"
+  }
+},
+{
+  "type": "way",
+  "id": 230476318,
+  "center": {
+    "lat": 39.8880742,
+    "lon": 32.7790070
+  },
+  "tags": {
+    "amenity": "parking",
+    "name": "Gıda Otoparkı"
+  }
+},
+{
+  "type": "way",
+  "id": 230532081,
+  "center": {
+    "lat": 39.8946455,
+    "lon": 32.7851486
+  },
+  "tags": {
+    "amenity": "restaurant",
+    "building": "university",
+    "name": "Sosyal Bina"
+  }
+},
+{
+  "type": "way",
+  "id": 262349072,
+  "center": {
+    "lat": 39.8955488,
+    "lon": 32.7813281
+  },
+  "tags": {
+    "amenity": "kindergarten",
+    "building": "yes",
+    "check_date": "2025-07-16",
+    "name": "Yuva ve Anaokulu"
+  }
+},
+{
+  "type": "way",
+  "id": 262349415,
+  "center": {
+    "lat": 39.8971443,
+    "lon": 32.7834656
+  },
+  "tags": {
+    "amenity": "parking",
+    "fee": "no",
+    "name": "Kütüphane Otoparkı",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 262353240,
+  "center": {
+    "lat": 39.8887055,
+    "lon": 32.7859420
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "no",
+    "name": "Plaj Voleybolu Sahası",
+    "sport": "beachvolleyball",
+    "surface": "sand"
+  }
+},
+{
+  "type": "way",
+  "id": 262378161,
+  "center": {
+    "lat": 39.8908988,
+    "lon": 32.7891356
+  },
+  "tags": {
+    "amenity": "parking",
+    "name": "Mediko Otoparkı"
+  }
+},
+{
+  "type": "way",
+  "id": 262378162,
+  "center": {
+    "lat": 39.8905086,
+    "lon": 32.7889749
+  },
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "parking",
+    "name": "2. Yurt Otoparkı",
+    "name:en": "2nd Dormitory Parking Lot",
+    "parking": "surface",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 305141414,
+  "center": {
+    "lat": 39.8923758,
+    "lon": 32.7863359
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "ODTÜ Gül Parkı"
+  }
+},
+{
+  "type": "way",
+  "id": 329056271,
+  "center": {
+    "lat": 39.8946543,
+    "lon": 32.7825033
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "roof",
+    "layer": "1",
+    "name": "Fizik Bölümü"
+  }
+},
+{
+  "type": "way",
+  "id": 332455302,
+  "center": {
+    "lat": 39.8972641,
+    "lon": 32.7827461
+  },
+  "tags": {
+    "artist_name": "Rolf Westphall",
+    "artwork_type": "sculpture",
+    "layer": "1",
+    "name": "ODTÜ Ata Heykeli",
+    "start_date": "1982",
+    "tourism": "artwork"
+  }
+},
+{
+  "type": "way",
+  "id": 332458373,
+  "center": {
+    "lat": 39.8929503,
+    "lon": 32.7838344
+  },
+  "tags": {
+    "addr:postcode": "06800",
+    "amenity": "social_facility",
+    "building": "university",
+    "loc_name": "Baraka",
+    "name": "Öğrenci Barakası",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "way",
+  "id": 337243427,
+  "center": {
+    "lat": 39.8910590,
+    "lon": 32.7959936
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Berfo Ana Parkı"
+  }
+},
+{
+  "type": "way",
+  "id": 337246087,
+  "center": {
+    "lat": 39.9002636,
+    "lon": 32.7796668
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "university",
+    "name": "Mescit",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 376276122,
+  "center": {
+    "lat": 39.8921842,
+    "lon": 32.7818434
+  },
+  "tags": {
+    "access": "private",
+    "amenity": "parking",
+    "name": "Personel Otoparkı",
+    "parking": "surface"
+  }
+},
+{
+  "type": "way",
+  "id": 382227735,
+  "center": {
+    "lat": 39.9041692,
+    "lon": 32.7930114
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Çansera Kent Bahçesi"
+  }
+},
+{
+  "type": "way",
+  "id": 404864533,
+  "center": {
+    "lat": 39.9022396,
+    "lon": 32.7953394
+  },
+  "tags": {
+    "addr:housenumber": "14",
+    "addr:postcode": "06530",
+    "addr:street": "Öğretmenler Caddesi",
+    "amenity": "university",
+    "education": "university",
+    "name": "Çankaya Üniversitesi Balgat Kampüsü",
+    "website": "https://www.cankaya.edu.tr/universite/balgat-kampus-iletisim.php",
+    "wikidata": "Q272614",
+    "wikipedia": "en:Çankaya University"
+  }
+},
+{
+  "type": "way",
+  "id": 404864677,
+  "center": {
+    "lat": 39.9004192,
+    "lon": 32.7946589
+  },
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "Özel Evrensel Koleji"
+  }
+},
+{
+  "type": "way",
+  "id": 420026456,
+  "center": {
+    "lat": 39.9064808,
+    "lon": 32.7629487
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "check_date": "2025-07-16",
+    "denomination": "sunni",
+    "name": "Ahmet Hamdi Akseki Camii",
+    "religion": "muslim",
+    "wikidata": "Q25472397",
+    "wikimedia_commons": "Category:Ahmet Hamdi Akseki Mosque",
+    "wikipedia": "tr:Ahmet Hamdi Akseki Camii"
+  }
+},
+{
+  "type": "way",
+  "id": 420040682,
+  "center": {
+    "lat": 39.9108375,
+    "lon": 32.7784693
+  },
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "2/3",
+    "addr:neighbourhood": "Mustafa Kemal Mahallesi",
+    "addr:postcode": "06530",
+    "addr:street": "2123. Cadde",
+    "building": "yes",
+    "building:levels": "4",
+    "building:levels:underground": "4",
+    "layer": "1",
+    "name": "Cepa AVM",
+    "shop": "mall",
+    "website": "https://cepaavm.com.tr/",
+    "wheelchair": "yes",
+    "wikidata": "Q115684606",
+    "wikimedia_commons": "Category:CEPA",
+    "wikipedia": "tr:Cepa"
+  }
+},
+{
+  "type": "way",
+  "id": 420040753,
+  "center": {
+    "lat": 39.9099260,
+    "lon": 32.7762251
+  },
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "164",
+    "addr:neighbourhood": "Mustafa Kemal Mahallesi",
+    "addr:postcode": "06530",
+    "addr:street": "Dumlupınar Bulvarı",
+    "building": "yes",
+    "building:levels": "4",
+    "building:levels:underground": "4",
+    "contact:email": "bilgi@kentpark.com.tr",
+    "name": "Kentpark AVM",
+    "shop": "mall",
+    "website": "https://www.kentpark.com.tr/",
+    "wheelchair": "yes",
+    "wikidata": "Q6019963",
+    "wikimedia_commons": "Category:Kentpark"
+  }
+},
+{
+  "type": "way",
+  "id": 420043278,
+  "center": {
+    "lat": 39.9057375,
+    "lon": 32.7624132
+  },
+  "tags": {
+    "addr:housenumber": "147/A",
+    "addr:postcode": "06800",
+    "addr:street": "Dumlupınar Bulvarı",
+    "barrier": "fence",
+    "name": "Diyanet İşleri Başkanlığı",
+    "name:en": "Directorate of Religious Affairs",
+    "office": "government",
+    "wikipedia": "tr:Türkiye Cumhuriyeti Diyanet İşleri Başkanlığı"
+  }
+},
+{
+  "type": "way",
+  "id": 422025864,
+  "center": {
+    "lat": 39.9062873,
+    "lon": 32.7910496
+  },
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "mosque",
+    "denomination": "sunni",
+    "name": "Fatih Camii",
+    "religion": "muslim"
+  }
+},
+{
+  "type": "way",
+  "id": 422952789,
+  "center": {
+    "lat": 39.8831675,
+    "lon": 32.7632819
+  },
+  "tags": {
+    "contact:phone": "+903124902115",
+    "leisure": "sports_centre",
+    "name": "Sports International",
+    "source": "mapbox",
+    "website": "http://www.sportsinternational.com.tr/"
+  }
+},
+{
+  "type": "way",
+  "id": 423640027,
+  "center": {
+    "lat": 39.8890563,
+    "lon": 32.7857884
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Halısaha",
+    "source": "mapbox",
+    "sport": "soccer",
+    "surface": "artificial_turf"
+  }
+},
+{
+  "type": "way",
+  "id": 423640028,
+  "center": {
+    "lat": 39.8891177,
+    "lon": 32.7861010
+  },
+  "tags": {
+    "leisure": "pitch",
+    "lit": "yes",
+    "name": "Halısaha",
+    "source": "mapbox",
+    "sport": "soccer",
+    "surface": "artificial_turf"
+  }
+},
+{
+  "type": "way",
+  "id": 423640030,
+  "center": {
+    "lat": 39.8891072,
+    "lon": 32.7871059
+  },
+  "tags": {
+    "access": "private",
+    "addr:postcode": "06800",
+    "building": "yes",
+    "covered": "yes",
+    "fee": "yes",
+    "leisure": "swimming_pool",
+    "name": "Kapalı Olimpik Yüzme Havuzu",
+    "name:en": "Indoor Olympic Swimming Pool",
+    "opening_hours": "Tu-Su 07:00-22:30",
+    "sport": "swimming",
+    "website": "http://hm.metu.edu.tr"
+  }
+},
+{
+  "type": "way",
+  "id": 423640032,
+  "center": {
+    "lat": 39.8917278,
+    "lon": 32.7866314
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423640033,
+  "center": {
+    "lat": 39.8918101,
+    "lon": 32.7868133
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423640034,
+  "center": {
+    "lat": 39.8920337,
+    "lon": 32.7862954
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423640035,
+  "center": {
+    "lat": 39.8921007,
+    "lon": 32.7864438
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423686054,
+  "center": {
+    "lat": 39.8926734,
+    "lon": 32.7765873
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "ODTÜ Spor Merkezi",
+    "sport": "basketball;fitness;squash"
+  }
+},
+{
+  "type": "way",
+  "id": 423686064,
+  "center": {
+    "lat": 39.8932678,
+    "lon": 32.7884148
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "source": "mapbox",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423686065,
+  "center": {
+    "lat": 39.8932331,
+    "lon": 32.7886224
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "source": "mapbox",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423686066,
+  "center": {
+    "lat": 39.8936579,
+    "lon": 32.7880905
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "source": "mapbox",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423686073,
+  "center": {
+    "lat": 39.8933373,
+    "lon": 32.7879994
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "source": "mapbox",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423686074,
+  "center": {
+    "lat": 39.8935537,
+    "lon": 32.7887135
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "source": "mapbox",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423686075,
+  "center": {
+    "lat": 39.8933025,
+    "lon": 32.7882071
+  },
+  "tags": {
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "source": "mapbox",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423686080,
+  "center": {
+    "lat": 39.8873514,
+    "lon": 32.7682480
+  },
+  "tags": {
+    "amenity": "public_building",
+    "building": "yes",
+    "name": "Aysel Sabuncu Yaşam Merkezi",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "way",
+  "id": 423686126,
+  "center": {
+    "lat": 39.8936058,
+    "lon": 32.7884020
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "pitch",
+    "name": "Tenis Kortu",
+    "source": "mapbox",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423686181,
+  "center": {
+    "lat": 39.8975439,
+    "lon": 32.7758594
+  },
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "33",
+    "addr:neighbourhood": "Üniversiteler Mahallesi",
+    "addr:postcode": "06800",
+    "building": "office",
+    "name": "Halıcı Yazılım Evi",
+    "office": "it",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "population": "250",
+    "toilets": "yes",
+    "wheelchair": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 423686182,
+  "center": {
+    "lat": 39.8941192,
+    "lon": 32.7878585
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "pitch",
+    "name": "Kapalı Tenis Kortu",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423686183,
+  "center": {
+    "lat": 39.8940248,
+    "lon": 32.7880725
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "pitch",
+    "name": "Kapalı Tenis Kortu",
+    "sport": "tennis"
+  }
+},
+{
+  "type": "way",
+  "id": 423686189,
+  "center": {
+    "lat": 39.8945231,
+    "lon": 32.7778194
+  },
+  "tags": {
+    "amenity": "public_building",
+    "building": "yes",
+    "name": "MODSIMMER"
+  }
+},
+{
+  "type": "way",
+  "id": 423686190,
+  "center": {
+    "lat": 39.9013748,
+    "lon": 32.7715328
+  },
+  "tags": {
+    "addr:postcode": "06800",
+    "fee": "no",
+    "name": "ODTÜ Bilim ve Teknoloji Müzesi",
+    "source": "mapbox",
+    "start_date": "2005",
+    "tourism": "museum",
+    "wikidata": "Q6715515",
+    "wikimedia_commons": "Category:Middle East Technical University Science and Technology Museum",
+    "wikipedia": "tr:ODTÜ Bilim ve Teknoloji Müzesi"
+  }
+},
+{
+  "type": "way",
+  "id": 423686191,
+  "center": {
+    "lat": 39.8941018,
+    "lon": 32.7860998
+  },
+  "tags": {
+    "amenity": "community_centre",
+    "building": "university",
+    "name": "ODTÜ Kültür ve Kongre Merkezi",
+    "source": "mapbox"
+  }
+},
+{
+  "type": "way",
+  "id": 430982885,
+  "center": {
+    "lat": 39.8914430,
+    "lon": 32.7853887
+  },
+  "tags": {
+    "barrier": "fence",
+    "check_date": "2025-07-13",
+    "leisure": "stadium",
+    "lit": "yes",
+    "name": "Devrim Stadyumu",
+    "wikidata": "Q6047111",
+    "wikimedia_commons": "Category:Devrim Stadium",
+    "wikipedia": "tr:Devrim Stadyumu"
+  }
+},
+{
+  "type": "way",
+  "id": 430982889,
+  "center": {
+    "lat": 39.8908337,
+    "lon": 32.7817357
+  },
+  "tags": {
+    "amenity": "university",
+    "building": "office",
+    "int_name": "Ayaslı Research Center",
+    "name": "Ayaslı Araştırma Merkezi"
+  }
+},
+{
+  "type": "way",
+  "id": 431068150,
+  "center": {
+    "lat": 39.8969676,
+    "lon": 32.7825149
+  },
+  "tags": {
+    "addr:postcode": "06800",
+    "building": "yes",
+    "fee": "no",
+    "name": "Müze",
+    "source": "mapbox",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 436474136,
+  "center": {
+    "lat": 39.8984444,
+    "lon": 32.7779735
+  },
+  "tags": {
+    "amenity": "parking",
+    "name": "İşletme Otoparkı"
+  }
+},
+{
+  "type": "way",
+  "id": 467642081,
+  "center": {
+    "lat": 39.8878787,
+    "lon": 32.7858978
+  },
+  "tags": {
+    "access": "no",
+    "leisure": "pitch",
+    "name": "Futbol Sahası",
+    "sport": "soccer"
+  }
+},
+{
+  "type": "way",
+  "id": 467654588,
+  "center": {
+    "lat": 39.8944072,
+    "lon": 32.7831209
+  },
+  "tags": {
+    "historic": "memorial",
+    "name": "Kemal Kurdaş Anıtı"
+  }
+},
+{
+  "type": "way",
+  "id": 671878375,
+  "center": {
+    "lat": 39.8818904,
+    "lon": 32.7950477
+  },
+  "tags": {
+    "addr:city": "Çankaya/Ankara",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "33",
+    "addr:neighbourhood": "Çiğdem Mahallesi",
+    "addr:postcode": "06530",
+    "addr:street": "1550/1.sk",
+    "dog": "yes",
+    "leisure": "park",
+    "name": "Ortadoğu Çamlık Sitesi Market Yeşil Alanı",
+    "opening_hours": "24/7",
+    "operator": "Ortadoğu Çamlık Sitesi",
+    "smoking": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 672251072,
+  "center": {
+    "lat": 39.8822014,
+    "lon": 32.7953874
+  },
+  "tags": {
+    "leisure": "garden",
+    "name": "Ortadoğu Çamlık Sitesi No:80-83 Bahçeleri",
+    "operator": "Ortadoğu Çamlık Sitesi"
+  }
+},
+{
+  "type": "way",
+  "id": 672741497,
+  "center": {
+    "lat": 39.8959324,
+    "lon": 32.7798891
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Biyolojik Bilimler Çardak"
+  }
+},
+{
+  "type": "way",
+  "id": 673839835,
+  "center": {
+    "lat": 39.8967823,
+    "lon": 32.7817201
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Entas Bahçesi"
+  }
+},
+{
+  "type": "way",
+  "id": 677287805,
+  "center": {
+    "lat": 39.9096093,
+    "lon": 32.7811122
+  },
+  "tags": {
+    "building": "yes",
+    "name": "Sanayi ve Teknoloji Bakanlığı Yemekhane",
+    "office": "government"
+  }
+},
+{
+  "type": "way",
+  "id": 690430517,
+  "center": {
+    "lat": 39.9032940,
+    "lon": 32.7918655
+  },
+  "tags": {
+    "access": "yes",
+    "building": "barn",
+    "leisure": "horse_riding",
+    "name": "Poni Parkı"
+  }
+},
+{
+  "type": "way",
+  "id": 691596379,
+  "center": {
+    "lat": 39.9080625,
+    "lon": 32.7839769
+  },
+  "tags": {
+    "addr:city": "Çankaya/Ankara",
+    "addr:district": "Çankaya",
+    "addr:neighbourhood": "Üniversiteler Mh.",
+    "addr:postcode": "06800",
+    "addr:street": "ODTÜ Kavşağı",
+    "leisure": "park",
+    "name": "ODTÜ A1 Kapısı Yeşil Alan",
+    "opening_hours": "24/7"
+  }
+},
+{
+  "type": "way",
+  "id": 692220468,
+  "center": {
+    "lat": 39.8910019,
+    "lon": 32.7827733
+  },
+  "tags": {
+    "leisure": "park",
+    "name": "Elektrik-Elektronik Mühendisliği Bölümü Bahçesi",
+    "opening_hours": "24/7",
+    "operator": "ODTÜ Elektrik Elektronik Mühendisliği"
+  }
+},
+{
+  "type": "way",
+  "id": 734600085,
+  "center": {
+    "lat": 39.8822170,
+    "lon": 32.7949807
+  },
+  "tags": {
+    "leisure": "playground",
+    "name": "Çamlık Sitesi Çimlik Çocuk Parkı",
+    "surface": "grass"
+  }
+},
+{
+  "type": "way",
+  "id": 884100513,
+  "center": {
+    "lat": 39.8967210,
+    "lon": 32.7651821
+  },
+  "tags": {
+    "amenity": "social_facility",
+    "building": "yes",
+    "name": "TSK Bakımevi",
+    "social_facility": "nursing_home",
+    "social_facility:for": "senior"
+  }
+},
+{
+  "type": "way",
+  "id": 975484720,
+  "center": {
+    "lat": 39.9095134,
+    "lon": 32.7670454
+  },
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "9",
+    "addr:neighbourhood": "Mustafa Kemal Mahallesi",
+    "addr:postcode": "06510",
+    "addr:street": "2158. Sokak",
+    "alt_name": "DEVA Partisi Genel Merkezi",
+    "building": "yes",
+    "name": "Demokrasi ve Atılım Partisi Genel Merkezi",
+    "office": "political_party",
+    "opening_hours": "24/7",
+    "phone": "+90 850 255 6565",
+    "website": "https://devapartisi.org",
+    "wikidata": "Q87410205",
+    "wikimedia_commons": "Category:Democracy and Progress Party",
+    "wikipedia": "tr:Demokrasi ve Atılım Partisi"
+  }
+},
+{
+  "type": "way",
+  "id": 1099315325,
+  "center": {
+    "lat": 39.9028354,
+    "lon": 32.7635992
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Yüksek Güvenlikli Adli Psikiyatri Hastanesi"
+  }
+},
+{
+  "type": "way",
+  "id": 1116878855,
+  "center": {
+    "lat": 39.8910160,
+    "lon": 32.7879615
+  },
+  "tags": {
+    "leisure": "miniature_golf",
+    "name": "ODTÜ Golf Sahası"
+  }
+},
+{
+  "type": "way",
+  "id": 1116882307,
+  "center": {
+    "lat": 39.8910673,
+    "lon": 32.7849756
+  },
+  "tags": {
+    "leisure": "bleachers",
+    "name": "D Harfi",
+    "name:en": "Letter D"
+  }
+},
+{
+  "type": "way",
+  "id": 1116882308,
+  "center": {
+    "lat": 39.8912340,
+    "lon": 32.7848338
+  },
+  "tags": {
+    "leisure": "bleachers",
+    "name": "EV Harfleri",
+    "name:en": "Letters EV"
+  }
+},
+{
+  "type": "way",
+  "id": 1116882309,
+  "center": {
+    "lat": 39.8914172,
+    "lon": 32.7847273
+  },
+  "tags": {
+    "leisure": "bleachers",
+    "name": "Rİ Harfleri",
+    "name:en": "Letters Rİ"
+  }
+},
+{
+  "type": "way",
+  "id": 1116882310,
+  "center": {
+    "lat": 39.8916124,
+    "lon": 32.7846578
+  },
+  "tags": {
+    "leisure": "bleachers",
+    "name": "M Harfi",
+    "name:en": "Letter M"
+  }
+},
+{
+  "type": "way",
+  "id": 1119186023,
+  "center": {
+    "lat": 39.8916279,
+    "lon": 32.7797509
+  },
+  "tags": {
+    "amenity": "social_centre",
+    "building": "yes",
+    "layer": "-1",
+    "name": "ODTÜ Topluluk Barakaları",
+    "name:en": "METU Student Societies' Barracks"
+  }
+},
+{
+  "type": "way",
+  "id": 1142002670,
+  "center": {
+    "lat": 39.9034417,
+    "lon": 32.7617578
+  },
+  "tags": {
+    "amenity": "university",
+    "education": "university",
+    "name": "Ankara Yıldırım Beyazıt Üniversitesi Tıp Fakültesi",
+    "name:en": "Ankara Yildirim Beyazit University, School of Medicine",
+    "operator": "Ankara Yıldırım Beyazıt Üniversitesi",
+    "operator:type": "university",
+    "website": "https://aybu.edu.tr/tip/"
+  }
+},
+{
+  "type": "way",
+  "id": 1194865237,
+  "center": {
+    "lat": 39.8975752,
+    "lon": 32.7765947
+  },
+  "tags": {
+    "amenity": "parking",
+    "capacity": "40",
+    "capacity:disabled": "1",
+    "name": "Halıcı Yazılım Evi Otopark",
+    "parking": "lane",
+    "surface": "unpaved"
+  }
+},
+{
+  "type": "way",
+  "id": 1232848835,
+  "center": {
+    "lat": 39.8991791,
+    "lon": 32.7622257
+  },
+  "tags": {
+    "amenity": "hospital",
+    "healthcare": "hospital",
+    "name": "Fizik Tedavi ve Rehabilitasyon Hastanesi"
+  }
+},
+{
+  "type": "way",
+  "id": 1411171875,
+  "center": {
+    "lat": 39.9018900,
+    "lon": 32.7715448
+  },
+  "tags": {
+    "description": "Vulcan Foundry (GB) n°5691",
+    "historic": "locomotive",
+    "locomotive:type": "steam",
+    "name": "Tarihi Lokomotif 56088",
+    "name:en": "Steam engine 56088",
+    "operator": "TCDD",
+    "ref": "56088",
+    "start_date": "1948"
+  }
+},
+{
+  "type": "way",
+  "id": 1419413501,
+  "center": {
+    "lat": 39.8881919,
+    "lon": 32.7825498
+  },
+  "tags": {
+    "leisure": "garden",
+    "name": "Kimya Mühendisliği Bahçesi"
+  }
+},
+{
+  "type": "way",
+  "id": 1420749617,
+  "center": {
+    "lat": 39.8902976,
+    "lon": 32.7864012
+  },
+  "tags": {
+    "alt_name": "ODTÜ Çimfi",
+    "leisure": "park",
+    "name": "ODTÜ Çim Amfi"
+  }
+},
+{
+  "type": "way",
+  "id": 1420942528,
+  "center": {
+    "lat": 39.9033563,
+    "lon": 32.7684798
+  },
+  "tags": {
+    "amenity": "school",
+    "education": "school",
+    "name": "ODTÜ Geliştirme Vakfı Okulları"
+  }
+},
+{
+  "type": "way",
+  "id": 1501334772,
+  "center": {
+    "lat": 39.9086642,
+    "lon": 32.7669525
+  },
+  "tags": {
+    "addr:city": "Ankara",
+    "addr:district": "Çankaya",
+    "addr:housenumber": "No: 13",
+    "addr:neighbourhood": "Mustafa Kemal Mahallesi",
+    "addr:postcode": "06510",
+    "addr:street": "2158. Sokak",
+    "amenity": "arts_centre",
+    "building": "yes",
+    "name": "Atatürk Sanat Merkezi"
+  }
+},
+{
+  "type": "way",
+  "id": 1564160945,
+  "center": {
+    "lat": 39.8906990,
+    "lon": 32.7882351
+  },
+  "tags": {
+    "amenity": "clinic",
+    "building": "university",
+    "building:levels": "2",
+    "healthcare": "clinic",
+    "name": "Mediko C Blok",
+    "roof:levels": "0",
+    "wheelchair": "limited"
+  }
+},
+{
+  "type": "relation",
+  "id": 6296522,
+  "center": {
+    "lat": 39.8926734,
+    "lon": 32.7765873
+  },
+  "tags": {
+    "building": "yes",
+    "leisure": "sports_centre",
+    "name": "Spor Merkezi",
+    "name:en": "Sports Center",
+    "source": "mapbox",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 6899696,
+  "center": {
+    "lat": 39.8755679,
+    "lon": 32.7883488
+  },
+  "tags": {
+    "alt_name": "ODTÜ",
+    "alt_name:en": "METU",
+    "amenity": "university",
+    "education": "university",
+    "internet_access": "yes",
+    "layer": "-1",
+    "name": "Orta Doğu Teknik Üniversitesi",
+    "name:de": "Technische Universität des Nahen Ostens",
+    "name:en": "Middle East Technical University",
+    "name:es": "Universidad Técnica de Medio Oriente",
+    "name:ja": "中東工科大学",
+    "name:zh": "中东科技大学",
+    "name:zh-Hans": "中东科技大学",
+    "name:zh-Hant": "中東科技大學",
+    "phone": "+90 312 210 2000",
+    "short_name": "ODTÜ",
+    "short_name:en": "METU",
+    "type": "multipolygon",
+    "website": "https://www.metu.edu.tr/tr",
+    "wikidata": "Q756126",
+    "wikipedia": "tr:Orta Doğu Teknik Üniversitesi"
+  }
+},
+{
+  "type": "relation",
+  "id": 9042020,
+  "center": {
+    "lat": 39.8900261,
+    "lon": 32.7856819
+  },
+  "tags": {
+    "leisure": "sports_centre",
+    "name": "Baraka Spor Salonu",
+    "type": "site"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,18 @@
+{
+ "key": "bilim_agaci",
+ "name": "Bilim Ağacı",
+ "hedef_dosya": "models/bilim_agaci.glb",
+ "model_var": false,
+ "anchor": {
+  "lat": 39.9080488,
+  "lon": 32.7838684,
+  "zemin_kotu_m": 875.8
+ },
+ "eksenler": "Blender: +X doğu, +Y kuzey, +Z yukarı, metre; orijin = anchor merkezi, z=0 = anchor'daki zemin",
+ "hedef_binalar": [],
+ "alan_siniri_dogu_kuzey_m": null,
+ "arazi_yerel_min_max_m": [
+  -15.7,
+  17.1
+ ]
+}

@@ -1,0 +1,656 @@
+﻿osm,isim,tur,taban_m2,tahmini_yukseklik_m,tahmin_yontemi,lat,lon
+https://www.openstreetmap.org/way/724716911,TOGO Kuleleri,commercial,13119,9.6,tahmin_tur,39.909512,32.784633
+https://www.openstreetmap.org/way/219413612,İktisadi ve İdari Bilimler Fakültesi B Binası,university,9416,16.0,tahmin_tur_medyan,39.8988,32.778899
+https://www.openstreetmap.org/way/884100513,TSK Bakımevi,social_facility,8025,9.6,tahmin_alan,39.896576,32.765214
+https://www.openstreetmap.org/way/423686191,ODTÜ Kültür ve Kongre Merkezi,university,7210,16.0,tahmin_tur_medyan,39.894082,32.786138
+https://www.openstreetmap.org/way/52068763,Kimya Bölümü,university,5405,16.0,tahmin_tur_medyan,39.893306,32.782515
+https://www.openstreetmap.org/way/724716916,ODTÜ Araştırma Parkı,university,5208,16.0,tahmin_tur_medyan,39.895675,32.777774
+https://www.openstreetmap.org/way/1566868743,Avrupa Birliği Başkanlığı,civic,4457,12.0,tahmin_tur,39.909707,32.76176
+https://www.openstreetmap.org/way/1501334772,Atatürk Sanat Merkezi,arts_centre,4353,9.6,tahmin_alan,39.908644,32.766961
+https://www.openstreetmap.org/way/221316335,Teknokent İkizler Binası,office,4306,16.0,tahmin_tur,39.896606,32.775866
+https://www.openstreetmap.org/way/423686051,Galyum Blok,industrial,4153,6.4,tahmin_tur,39.897613,32.774003
+https://www.openstreetmap.org/relation/6296515,Galyum Blok,university,4153,16.0,tahmin_tur_medyan,39.897613,32.774003
+https://www.openstreetmap.org/way/119180752,Gümüş Blok,university,4057,16.0,tahmin_tur_medyan,39.899536,32.775279
+https://www.openstreetmap.org/way/119180731,Silikon Blok,university,3819,16.0,tahmin_tur_medyan,39.899962,32.773594
+https://www.openstreetmap.org/way/423640031,Refika Aksoy Yurdu,dormitory,3749,14.4,tahmin_tur_medyan,39.884631,32.776869
+https://www.openstreetmap.org/way/423640029,Faika Demiray Yurdu,,3749,9.6,tahmin_alan,39.886332,32.77701
+https://www.openstreetmap.org/way/430756352,İnşaat Mühendisliği Bölümü K3 Blok,university,3714,16.0,tahmin_tur_medyan,39.88842,32.78377
+https://www.openstreetmap.org/way/420026456,Ahmet Hamdi Akseki Camii,mosque,3678,3.2,tahmin_tur,39.906479,32.762936
+https://www.openstreetmap.org/way/431068137,ODTÜ Taşıt İşletme Müdürlüğü,,3661,9.6,tahmin_alan,39.904666,32.770072
+https://www.openstreetmap.org/way/430756355,Metalurji ve Malzeme Mühendisliği A-B-C-D Blok,university,3611,16.0,tahmin_tur_medyan,39.88594,32.782742
+https://www.openstreetmap.org/way/208600863,ODTÜ Kütüphane,library,3581,12.0,tahmin_tur,39.89576,32.783202
+https://www.openstreetmap.org/way/430982904,TÜBİTAK UZAY,university,3389,16.0,tahmin_tur_medyan,39.890847,32.778474
+https://www.openstreetmap.org/way/423640030,Kapalı Olimpik Yüzme Havuzu,,3209,9.6,tahmin_alan,39.889115,32.787104
+https://www.openstreetmap.org/relation/6296522,Spor Merkezi,,3121,9.6,tahmin_alan,39.892696,32.776591
+https://www.openstreetmap.org/way/229130845,İktisadi ve İdari Bilimler Fakültesi A Binası,university,2938,16.0,tahmin_tur_medyan,39.898477,32.782611
+https://www.openstreetmap.org/way/430910078,Makina Mühendisliği F Blok,university,2847,16.0,tahmin_tur_medyan,39.889241,32.780267
+https://www.openstreetmap.org/way/28115990,Büyük Spor Salonu,,2792,9.6,tahmin_alan,39.891387,32.78759
+https://www.openstreetmap.org/way/221349053,MilSoft Yazılım A.Ş.,office,2773,16.0,tahmin_tur,39.896632,32.773686
+https://www.openstreetmap.org/way/430910140,Petrol ve Doğalgaz Mühendisliği Bölümü,university,2713,16.0,tahmin_tur_medyan,39.886699,32.779243
+https://www.openstreetmap.org/way/430910121,Havacılık Mühendisliği Bölümü,school,2674,12.0,tahmin_tur,39.884799,32.778597
+https://www.openstreetmap.org/way/229130850,Kafeterya,cafe,2672,9.6,tahmin_alan,39.893711,32.783945
+https://www.openstreetmap.org/way/430910124,Havacılık Mühendisliği Bölümü,school,2503,12.0,tahmin_tur,39.88418,32.777963
+https://www.openstreetmap.org/way/229925855,Biyolojik Bilimler Bölümü,university,2501,16.0,tahmin_tur_medyan,39.895761,32.780131
+https://www.openstreetmap.org/way/430910126,Kimya Mühendisliği E Blok,university,2487,16.0,tahmin_tur_medyan,39.887705,32.782801
+https://www.openstreetmap.org/way/225751356,İnşaat Mühendisliği K5 Blok,university,2355,16.0,tahmin_tur_medyan,39.886638,32.783802
+https://www.openstreetmap.org/way/430910086,Çevre Mühendisliği Bölümü,university,2347,16.0,tahmin_tur_medyan,39.887031,32.78318
+https://www.openstreetmap.org/way/423686080,Aysel Sabuncu Yaşam Merkezi,public_building,2347,9.6,tahmin_alan,39.887289,32.768339
+https://www.openstreetmap.org/relation/6296519,KOSGEB ODTÜ TEKMER,office,2337,16.0,tahmin_tur,39.898717,32.775853
+https://www.openstreetmap.org/way/648222094,RÜZGEM,university,2310,16.0,tahmin_tur_medyan,39.883102,32.777288
+https://www.openstreetmap.org/way/305141421,Fizik Bölümü,university,2230,16.0,tahmin_tur_medyan,39.894338,32.781904
+https://www.openstreetmap.org/way/423686098,Makina Mühendisliği B Blok,university,2171,16.0,tahmin_tur_medyan,39.889049,32.782345
+https://www.openstreetmap.org/way/431068189,ODTÜ GVO Anaokulu,,2100,9.6,tahmin_alan,39.902354,32.768507
+https://www.openstreetmap.org/way/423686181,Halıcı Yazılım Evi,office,1988,16.0,tahmin_tur,39.897539,32.775839
+https://www.openstreetmap.org/way/90287339,Beşeri Bilimler,university,1975,16.0,tahmin_tur_medyan,39.896262,32.781809
+https://www.openstreetmap.org/way/430982891,15. Konukevi,dormitory,1935,14.4,tahmin_tur_medyan,39.888633,32.791823
+https://www.openstreetmap.org/way/221349047,Eğitim Fakültesi,public,1924,12.0,tahmin_tur,39.900742,32.776224
+https://www.openstreetmap.org/way/58077286,8. Yurt,dormitory,1923,14.4,tahmin_tur_medyan,39.888769,32.787942
+https://www.openstreetmap.org/way/423686192,ODTÜ Merkez Laboratuvarı,university,1906,16.0,tahmin_tur_medyan,39.890034,32.781994
+https://www.openstreetmap.org/relation/6411379,Gıda Mühendisliği Bölümü,university,1841,16.0,tahmin_tur_medyan,39.887616,32.778934
+https://www.openstreetmap.org/way/430982889,Ayaslı Araştırma Merkezi,office,1827,16.0,tahmin_tur,39.890826,32.781743
+https://www.openstreetmap.org/way/262349072,Yuva ve Anaokulu,kindergarten,1813,9.6,tahmin_alan,39.895552,32.781323
+https://www.openstreetmap.org/way/57910019,Çarşı,university,1799,16.0,tahmin_tur_medyan,39.892548,32.788334
+https://www.openstreetmap.org/way/430910058,2. Yurt,university,1778,16.0,tahmin_tur_medyan,39.890282,32.789378
+https://www.openstreetmap.org/way/58077848,9. Yurt,dormitory,1778,14.4,tahmin_tur_medyan,39.888025,32.790134
+https://www.openstreetmap.org/way/430756354,Metalurji ve Malzeme Mühendisliği E Blok,university,1770,16.0,tahmin_tur_medyan,39.8854,32.782107
+https://www.openstreetmap.org/way/1338007159,Eğitim Fakültesi D Blok,school,1672,12.0,tahmin_tur,39.900274,32.776979
+https://www.openstreetmap.org/way/430982903,12. Konukevi,dormitory,1664,14.4,tahmin_tur_medyan,39.889271,32.791489
+https://www.openstreetmap.org/way/1421150520,TUALCOM,,1662,9.6,tahmin_alan,39.89371,32.774454
+https://www.openstreetmap.org/way/90288101,Yüksek Gerilim Labı,university,1632,16.0,tahmin_tur_medyan,39.892087,32.782357
+https://www.openstreetmap.org/way/423686201,Temel İngilizce Bölümü F-G Blok,university,1586,16.0,tahmin_tur_medyan,39.9003,32.778784
+https://www.openstreetmap.org/way/430982892,Elektrik-Elektronik Mühendisliği Bölümü B-C Blok,university,1586,16.0,tahmin_tur_medyan,39.89102,32.782289
+https://www.openstreetmap.org/way/430756351,Jeoloji Mühendisliği Bölümü,university,1583,16.0,tahmin_tur_medyan,39.886077,32.781522
+https://www.openstreetmap.org/way/430910132,Konukevi-2,university,1583,16.0,tahmin_tur_medyan,39.888181,32.7771
+https://www.openstreetmap.org/way/56753995,Matematik Bölümü,university,1572,16.0,tahmin_tur_medyan,39.895663,32.782302
+https://www.openstreetmap.org/way/430910129,Konukevi-1,university,1536,16.0,tahmin_tur_medyan,39.889103,32.776842
+https://www.openstreetmap.org/way/423686180,HAVELSAN ARGE Binası,office,1519,16.0,tahmin_tur,39.893533,32.772658
+https://www.openstreetmap.org/way/262196947,Maden Mühendisliği Bölümü,university,1509,16.0,tahmin_tur_medyan,39.885942,32.780239
+https://www.openstreetmap.org/way/423686079,ASELSAN ARGE Binası,office,1497,16.0,tahmin_tur,39.89342,32.773582
+https://www.openstreetmap.org/way/423686138,Makina Mühendisliği Bölümü A Blok,university,1478,16.0,tahmin_tur_medyan,39.889587,32.782544
+https://www.openstreetmap.org/way/329056272,Üçlü Amfi,university,1476,16.0,tahmin_tur_medyan,39.894932,32.782513
+https://www.openstreetmap.org/way/423686202,Temel İngilizce Bölümü A-B-C Blok,university,1430,16.0,tahmin_tur_medyan,39.900408,32.781035
+https://www.openstreetmap.org/way/430982890,Bilgi İşlem Daire Başkanlığı,,1398,9.6,tahmin_alan,39.8914,32.783221
+https://www.openstreetmap.org/way/423686189,MODSIMMER,public_building,1385,9.6,tahmin_alan,39.894521,32.777821
+https://www.openstreetmap.org/way/430910118,Makina Mühendisliği D Blok,university,1331,16.0,tahmin_tur_medyan,39.890125,32.780193
+https://www.openstreetmap.org/way/423686126,Tenis Kortu,,1317,9.6,tahmin_alan,39.893606,32.788402
+https://www.openstreetmap.org/way/677287805,Sanayi ve Teknoloji Bakanlığı Yemekhane,,1278,9.6,tahmin_alan,39.909609,32.781112
+https://www.openstreetmap.org/way/423686184,Kimya Mühendisliği D Blok,university,1272,16.0,tahmin_tur_medyan,39.888478,32.782441
+https://www.openstreetmap.org/way/430910084,Makina Mühendisliği G Blok,university,1264,16.0,tahmin_tur_medyan,39.889271,32.780779
+https://www.openstreetmap.org/way/1188245123,Yeni Öğrenci Merkezi,,1253,9.6,tahmin_alan,39.890432,32.793162
+https://www.openstreetmap.org/way/430982895,Elektrik-Elektronik Mühendisliği Bölümü A Blok,university,1236,16.0,tahmin_tur_medyan,39.89053,32.782594
+https://www.openstreetmap.org/way/423686088,ODTÜ Bİltir,university,1222,16.0,tahmin_tur_medyan,39.893738,32.778913
+https://www.openstreetmap.org/way/41121902,Fen Edebiyat Fakültesi Dekanlığı,university,1210,16.0,tahmin_tur_medyan,39.89438,32.782635
+https://www.openstreetmap.org/way/420068033,Yenilenebilir Enerji Genel Müdürlüğü,,1168,9.6,tahmin_alan,39.908974,32.773556
+https://www.openstreetmap.org/way/430982901,İnşaat Mühendisliği Bölümü K7 Blok,university,1126,16.0,tahmin_tur_medyan,39.889472,32.783973
+https://www.openstreetmap.org/way/1419413523,GÜNAM,public,1117,12.0,tahmin_tur,39.894508,32.778395
+https://www.openstreetmap.org/way/423686200,Temel İngilizce Bölümü E-Blok,university,1098,16.0,tahmin_tur_medyan,39.900579,32.780291
+https://www.openstreetmap.org/way/229130840,Baraka Spor Salonu,university,1051,16.0,tahmin_tur_medyan,39.890026,32.785556
+https://www.openstreetmap.org/way/431068192,ODTÜ Yapı İşleri Daire Müdürlüğü,,1040,9.6,tahmin_alan,39.903679,32.770806
+https://www.openstreetmap.org/way/430910061,4. Yurt,dormitory,1023,14.4,tahmin_tur_medyan,39.889512,32.788737
+https://www.openstreetmap.org/way/430910066,5. Yurt,dormitory,1023,14.4,tahmin_tur_medyan,39.889161,32.789643
+https://www.openstreetmap.org/way/430910071,7. Yurt,dormitory,1023,14.4,tahmin_tur_medyan,39.889062,32.788841
+https://www.openstreetmap.org/way/430910069,6. Yurt,dormitory,1023,14.4,tahmin_tur_medyan,39.88844,32.789752
+https://www.openstreetmap.org/way/262361768,Osman Yazıcı Kız Konukevi,dormitory,1023,14.4,tahmin_tur_medyan,39.888262,32.791339
+https://www.openstreetmap.org/way/423686090,TAI Arge Binasi,,990,9.6,tahmin_alan,39.894617,32.772137
+https://www.openstreetmap.org/relation/6296520,Beşeri Bilimler,university,984,16.0,tahmin_tur_medyan,39.896585,32.781202
+https://www.openstreetmap.org/way/430982902,16. Konukevi,dormitory,968,14.4,tahmin_tur_medyan,39.888518,32.788866
+https://www.openstreetmap.org/way/423686179,Gisam,,901,9.6,tahmin_alan,39.900508,32.777177
+https://www.openstreetmap.org/way/330448623,Fizik Bölümü P Binası,university,899,16.0,tahmin_tur_medyan,39.894773,32.781854
+https://www.openstreetmap.org/way/423686122,YTM-MATPUM,university,891,16.0,tahmin_tur_medyan,39.897283,32.778107
+https://www.openstreetmap.org/way/430910076,Makina Mühendisliği E Blok,university,882,16.0,tahmin_tur_medyan,39.889853,32.780262
+https://www.openstreetmap.org/way/1420749605,ODTÜ DİMER,university,845,16.0,tahmin_tur_medyan,39.891904,32.778998
+https://www.openstreetmap.org/way/420034663,ODTÜ GVO Lisesi,,801,9.6,tahmin_alan,39.90447,32.768596
+https://www.openstreetmap.org/way/230532081,Sosyal Bina,university,800,16.0,tahmin_tur_medyan,39.89466,32.785175
+https://www.openstreetmap.org/way/423686203,Temel İngilizce Bölümü D Blok,university,784,16.0,tahmin_tur_medyan,39.900131,32.779957
+https://www.openstreetmap.org/way/58076852,Mediko,university,776,16.0,tahmin_tur_medyan,39.890888,32.788724
+https://www.openstreetmap.org/way/423686183,Kapalı Tenis Kortu,,743,9.6,tahmin_alan,39.894025,32.788072
+https://www.openstreetmap.org/way/423686182,Kapalı Tenis Kortu,,743,9.6,tahmin_alan,39.894119,32.787858
+https://www.openstreetmap.org/way/431068194,ODTÜ Arazi Değerlendirme Ve Ağaçlandırma Müdürlüğü,,717,9.6,tahmin_alan,39.905832,32.76565
+https://www.openstreetmap.org/way/229130851,Kimya Mühendisliği A Blok,university,716,16.0,tahmin_tur_medyan,39.888046,32.782087
+https://www.openstreetmap.org/way/463852628,Uygulamalı Matematik Enstitüsü - Kriptoloji Labı,university,702,16.0,tahmin_tur_medyan,39.893604,32.777903
+https://www.openstreetmap.org/way/1119186023,ODTÜ Topluluk Barakaları,social_centre,694,9.6,tahmin_alan,39.891644,32.77977
+https://www.openstreetmap.org/way/690430517,Poni Parkı,barn,669,3.2,tahmin_tur,39.903292,32.791863
+https://www.openstreetmap.org/way/431068199,Mimarlık Amfisi,university,666,16.0,tahmin_tur_medyan,39.896802,32.782296
+https://www.openstreetmap.org/way/423686197,Sürekli Eğitim Merkezi (SEM),office,634,16.0,tahmin_tur,39.898137,32.775531
+https://www.openstreetmap.org/way/423686095,Yabancı Diller Eğitimi Bölümü,university,616,16.0,tahmin_tur_medyan,39.902035,32.773119
+https://www.openstreetmap.org/way/423686198,Sürekli Eğitim Merkezi (SEM),office,600,16.0,tahmin_tur,39.898023,32.776003
+https://www.openstreetmap.org/way/337246087,Mescit,university,572,16.0,tahmin_tur_medyan,39.900264,32.779667
+https://www.openstreetmap.org/way/225752638,Odtü Mescit,mosque,542,3.2,tahmin_tur,39.885383,32.783976
+https://www.openstreetmap.org/way/230476324,Makina Mühendisliği C Blok,university,535,16.0,tahmin_tur_medyan,39.889418,32.782023
+https://www.openstreetmap.org/way/398471570,Kılıçaslan Lisesi,school,519,12.0,tahmin_tur,39.895126,32.795137
+https://www.openstreetmap.org/way/262361820,Faik Hızıroğlu Erkek Konukevi,dormitory,503,14.4,tahmin_tur_medyan,39.887826,32.791832
+https://www.openstreetmap.org/way/975484720,Demokrasi ve Atılım Partisi Genel Merkezi,,482,9.6,tahmin_alan,39.909513,32.767045
+https://www.openstreetmap.org/way/423686199,Süreç Geliştirme Laboratuvarı,university,466,16.0,tahmin_tur_medyan,39.891337,32.781609
+https://www.openstreetmap.org/way/430910135,Maden Mühendisliği Bölümü,university,460,16.0,tahmin_tur_medyan,39.885724,32.780588
+https://www.openstreetmap.org/way/423686193,SATGEB Bölge Ortak Bina,office,457,16.0,tahmin_tur,39.893649,32.772043
+https://www.openstreetmap.org/way/225751353,İnşaat Mühendisliği Bölümü K2 Blok,university,449,16.0,tahmin_tur_medyan,39.889222,32.783972
+https://www.openstreetmap.org/way/1420942522,ODTÜ Z-Garage,university,449,16.0,tahmin_tur_medyan,39.897054,32.77836
+https://www.openstreetmap.org/way/230476325,ODTÜ Öğrenci Toplulukları,public,407,12.0,tahmin_tur,39.891884,32.7806
+https://www.openstreetmap.org/way/430910143,TÜBİTAK SAGE Güdüm Kontrol Laboratuvarı,university,404,16.0,tahmin_tur_medyan,39.888656,32.779945
+https://www.openstreetmap.org/way/431068148,MM-25 Amfisi,university,402,16.0,tahmin_tur_medyan,39.892418,32.783064
+https://www.openstreetmap.org/way/430982898,Baraka Spor Salonu,university,394,16.0,tahmin_tur_medyan,39.890022,32.785905
+https://www.openstreetmap.org/way/430910088,ODTÜ Petrol Araştırma Merkezi (PAL),university,375,16.0,tahmin_tur_medyan,39.886146,32.779521
+https://www.openstreetmap.org/way/1421254792,Nanografi İnovasyon,office,328,16.0,tahmin_tur,39.898709,32.774396
+https://www.openstreetmap.org/way/423686111,ODTÜ Kuantum Aygıtları ve Nanofotonik Araştırma Laboratuvarı,university,322,16.0,tahmin_tur_medyan,39.890515,32.781759
+https://www.openstreetmap.org/way/332458373,Öğrenci Barakası,university,321,16.0,tahmin_tur_medyan,39.892946,32.783827
+https://www.openstreetmap.org/way/431068157,ODTÜ Elektrik İşletme Müdürlüğü,,313,9.6,tahmin_alan,39.906296,32.768717
+https://www.openstreetmap.org/way/430910137,Maden Mühendisliği Bölümü,university,289,16.0,tahmin_tur_medyan,39.885546,32.780103
+https://www.openstreetmap.org/way/430910112,Kimya Mühendisliği C Blok,university,268,16.0,tahmin_tur_medyan,39.888111,32.782784
+https://www.openstreetmap.org/way/423686188,Konukevi,house,243,6.4,tahmin_tur,39.888118,32.776188
+https://www.openstreetmap.org/way/423686185,Konukevi,house,242,6.4,tahmin_tur,39.887736,32.776062
+https://www.openstreetmap.org/way/423686187,Konukevi,house,242,6.4,tahmin_tur,39.888174,32.776369
+https://www.openstreetmap.org/way/423686186,Konukevi,house,242,6.4,tahmin_tur,39.887792,32.776243
+https://www.openstreetmap.org/way/1419413513,ODTÜ Robot Topluluğu,public,237,12.0,tahmin_tur,39.891476,32.780664
+https://www.openstreetmap.org/way/1421254793,Labris Teknoloji Bilisim Cozumleri,office,233,16.0,tahmin_tur,39.898701,32.774715
+https://www.openstreetmap.org/way/422025864,Fatih Camii,mosque,213,3.2,tahmin_tur,39.906287,32.79105
+https://www.openstreetmap.org/way/262045423,Hidrojen Araştırma Laboratuvarı,university,208,16.0,tahmin_tur_medyan,39.883985,32.775155
+https://www.openstreetmap.org/way/380300013,A1 Kapısı,,204,6.4,tahmin_alan,39.907613,32.784039
+https://www.openstreetmap.org/way/431068150,Müze,entertainment,204,6.4,tahmin_alan,39.896968,32.782515
+https://www.openstreetmap.org/way/423686143,ODTÜ Misafirhane Müdürlüğü,,187,6.4,tahmin_alan,39.890842,32.790853
+https://www.openstreetmap.org/way/430910108,Yüksek Radyasyon Binası,university,184,16.0,tahmin_tur_medyan,39.88504,32.781463
+https://www.openstreetmap.org/way/329056271,Fizik Bölümü,roof,178,4.0,tahmin_tur,39.894649,32.782526
+https://www.openstreetmap.org/way/423686118,ODTÜ Teknoloji Transfer Ofisi,university,158,16.0,tahmin_tur_medyan,39.89692,32.778192
+https://www.openstreetmap.org/way/648185133,Güneş Evi,,138,6.4,tahmin_alan,39.899,32.781703
+https://www.openstreetmap.org/way/90288100,Odtü Tanıtım Ofisi,university,136,16.0,tahmin_tur_medyan,39.893696,32.783273
+https://www.openstreetmap.org/way/380300011,A-7 Kapısı,,75,6.4,tahmin_alan,39.899725,32.767297
+https://www.openstreetmap.org/way/344071917,A-4 Kapısı,,55,3.2,tahmin_alan,39.89104,32.793799
+https://www.openstreetmap.org/way/648190773,Baraka Spor Salonu,university,53,16.0,tahmin_tur_medyan,39.890162,32.785825
+https://www.openstreetmap.org/way/332455304,Kafes,roof,45,4.0,tahmin_tur,39.887984,32.789479
+https://www.openstreetmap.org/relation/15457993,,hospital,19494,12.0,tahmin_tur,39.903035,32.763419
+https://www.openstreetmap.org/way/884110130,,hospital,14446,12.0,tahmin_tur,39.899517,32.761258
+https://www.openstreetmap.org/relation/6244820,,hospital,8000,12.0,tahmin_tur,39.900977,32.76164
+https://www.openstreetmap.org/way/1073647205,,train_station,5504,4.0,tahmin_tur,39.908355,32.78464
+https://www.openstreetmap.org/way/431068197,,,5398,9.6,tahmin_alan,39.902859,32.7694
+https://www.openstreetmap.org/way/423686062,,university,5275,16.0,tahmin_tur_medyan,39.897232,32.781666
+https://www.openstreetmap.org/way/422026031,,,5207,9.6,tahmin_alan,39.907299,32.793064
+https://www.openstreetmap.org/way/1073649768,,train_station,5084,4.0,tahmin_tur,39.907512,32.765424
+https://www.openstreetmap.org/way/420034632,,,5015,9.6,tahmin_alan,39.897777,32.77089
+https://www.openstreetmap.org/way/420040708,,,3699,9.6,tahmin_alan,39.910476,32.7808
+https://www.openstreetmap.org/way/422141735,,,3497,9.6,tahmin_alan,39.906902,32.788838
+https://www.openstreetmap.org/way/420040715,,,3440,9.6,tahmin_alan,39.909205,32.77984
+https://www.openstreetmap.org/way/422952774,,,3362,9.6,tahmin_alan,39.883511,32.762431
+https://www.openstreetmap.org/way/1479173778,,,3253,9.6,tahmin_alan,39.894816,32.763978
+https://www.openstreetmap.org/way/422148608,,,2837,9.6,tahmin_alan,39.89644,32.792583
+https://www.openstreetmap.org/way/431068162,,,2774,9.6,tahmin_alan,39.903114,32.767986
+https://www.openstreetmap.org/way/422148635,,school,2510,12.0,tahmin_tur,39.900686,32.794911
+https://www.openstreetmap.org/way/420026476,,school,2393,12.0,tahmin_tur,39.903371,32.761808
+https://www.openstreetmap.org/way/423686084,,university,2296,16.0,tahmin_tur_medyan,39.892979,32.778918
+https://www.openstreetmap.org/way/420034639,,,2244,9.6,tahmin_alan,39.904272,32.767762
+https://www.openstreetmap.org/way/422148645,,school,2154,12.0,tahmin_tur,39.900326,32.794148
+https://www.openstreetmap.org/relation/6244822,,hospital,2045,12.0,tahmin_tur,39.90153,32.762063
+https://www.openstreetmap.org/way/638700383,,,2031,9.6,tahmin_alan,39.909283,32.764242
+https://www.openstreetmap.org/way/638700386,,,1826,9.6,tahmin_alan,39.908567,32.765941
+https://www.openstreetmap.org/way/420067992,,,1819,9.6,tahmin_alan,39.909755,32.773884
+https://www.openstreetmap.org/way/638700384,,commercial,1793,9.6,tahmin_tur,39.909319,32.765222
+https://www.openstreetmap.org/way/420067984,,,1757,9.6,tahmin_alan,39.90991,32.768782
+https://www.openstreetmap.org/way/422148642,,school,1713,12.0,tahmin_tur,39.901903,32.794361
+https://www.openstreetmap.org/way/420068008,,,1689,9.6,tahmin_alan,39.908932,32.77258
+https://www.openstreetmap.org/way/420068004,,,1689,9.6,tahmin_alan,39.908916,32.772105
+https://www.openstreetmap.org/way/638700382,,office,1675,16.0,tahmin_tur,39.909979,32.764578
+https://www.openstreetmap.org/relation/6273637,,,1626,9.6,tahmin_alan,39.907057,32.795151
+https://www.openstreetmap.org/way/420034658,,,1593,9.6,tahmin_alan,39.905085,32.768289
+https://www.openstreetmap.org/way/420034614,,,1527,9.6,tahmin_alan,39.895656,32.771962
+https://www.openstreetmap.org/way/422025964,,,1523,9.6,tahmin_alan,39.905036,32.794873
+https://www.openstreetmap.org/way/422148629,,university,1430,16.0,tahmin_tur_medyan,39.902574,32.794794
+https://www.openstreetmap.org/relation/6247684,,,1404,9.6,tahmin_alan,39.910118,32.782926
+https://www.openstreetmap.org/relation/6275566,,,1365,9.6,tahmin_alan,39.906118,32.788358
+https://www.openstreetmap.org/way/420068001,,,1344,9.6,tahmin_alan,39.908836,32.771644
+https://www.openstreetmap.org/way/422148639,,school,1312,12.0,tahmin_tur,39.901244,32.794756
+https://www.openstreetmap.org/way/420034648,,,1275,9.6,tahmin_alan,39.905712,32.767193
+https://www.openstreetmap.org/way/420034630,,,1275,9.6,tahmin_alan,39.905768,32.767527
+https://www.openstreetmap.org/relation/6273640,,,1262,9.6,tahmin_alan,39.907587,32.794946
+https://www.openstreetmap.org/way/431068138,,,1257,9.6,tahmin_alan,39.901922,32.768194
+https://www.openstreetmap.org/relation/6244819,,,1252,9.6,tahmin_alan,39.90142,32.762857
+https://www.openstreetmap.org/way/422148599,,school,1238,12.0,tahmin_tur,39.896291,32.794714
+https://www.openstreetmap.org/way/422148644,,university,1217,16.0,tahmin_tur_medyan,39.902223,32.795196
+https://www.openstreetmap.org/way/398471632,,,1183,9.6,tahmin_alan,39.90969,32.794061
+https://www.openstreetmap.org/way/420026478,,,1182,9.6,tahmin_alan,39.905104,32.761854
+https://www.openstreetmap.org/way/420068010,,,1152,9.6,tahmin_alan,39.909381,32.770428
+https://www.openstreetmap.org/way/420068005,,,1152,9.6,tahmin_alan,39.90939,32.770652
+https://www.openstreetmap.org/way/422148598,,school,1119,12.0,tahmin_tur,39.902596,32.793705
+https://www.openstreetmap.org/way/422148596,,school,1119,12.0,tahmin_tur,39.902971,32.793363
+https://www.openstreetmap.org/relation/6244574,,,1117,9.6,tahmin_alan,39.904685,32.767493
+https://www.openstreetmap.org/relation/6244575,,,1116,9.6,tahmin_alan,39.904983,32.767266
+https://www.openstreetmap.org/way/420034659,,,1114,9.6,tahmin_alan,39.903851,32.767973
+https://www.openstreetmap.org/way/420068009,,,1111,9.6,tahmin_alan,39.909097,32.769744
+https://www.openstreetmap.org/way/420067994,,,1108,9.6,tahmin_alan,39.908776,32.771177
+https://www.openstreetmap.org/way/422141734,,,1078,9.6,tahmin_alan,39.906553,32.788364
+https://www.openstreetmap.org/way/638700385,,,1076,9.6,tahmin_alan,39.908973,32.764779
+https://www.openstreetmap.org/way/431039009,,school,1067,12.0,tahmin_tur,39.894315,32.794182
+https://www.openstreetmap.org/way/423686092,,,1053,9.6,tahmin_alan,39.8941,32.771978
+https://www.openstreetmap.org/way/422025889,,,1047,9.6,tahmin_alan,39.908116,32.795256
+https://www.openstreetmap.org/way/1073649769,,train_station,1029,4.0,tahmin_tur,39.907742,32.763478
+https://www.openstreetmap.org/way/420034606,,,1021,9.6,tahmin_alan,39.904321,32.768986
+https://www.openstreetmap.org/way/420034605,,,1019,9.6,tahmin_alan,39.904137,32.768557
+https://www.openstreetmap.org/way/422148589,,school,1005,12.0,tahmin_tur,39.902483,32.794007
+https://www.openstreetmap.org/way/420068023,,,991,9.6,tahmin_alan,39.909225,32.773536
+https://www.openstreetmap.org/relation/6275567,,,978,9.6,tahmin_alan,39.905562,32.790016
+https://www.openstreetmap.org/way/1169593044,,,978,9.6,tahmin_alan,39.882202,32.761834
+https://www.openstreetmap.org/way/431068196,,,969,9.6,tahmin_alan,39.902059,32.768578
+https://www.openstreetmap.org/way/1142008822,,hospital,966,12.0,tahmin_tur,39.90206,32.763385
+https://www.openstreetmap.org/way/420266883,,,946,9.6,tahmin_alan,39.89132,32.763689
+https://www.openstreetmap.org/way/422141777,,,939,9.6,tahmin_alan,39.90624,32.789716
+https://www.openstreetmap.org/way/648699434,,,937,9.6,tahmin_alan,39.904749,32.766881
+https://www.openstreetmap.org/way/420034609,,,895,9.6,tahmin_alan,39.905017,32.767793
+https://www.openstreetmap.org/way/431068170,,roof,880,4.0,tahmin_tur,39.909501,32.793214
+https://www.openstreetmap.org/way/422952788,,,864,9.6,tahmin_alan,39.88309,32.762661
+https://www.openstreetmap.org/way/431068190,,,860,9.6,tahmin_alan,39.904458,32.7706
+https://www.openstreetmap.org/way/1479173780,,,848,9.6,tahmin_alan,39.894383,32.763965
+https://www.openstreetmap.org/way/422025884,,,842,9.6,tahmin_alan,39.906874,32.794327
+https://www.openstreetmap.org/way/422025881,,,842,9.6,tahmin_alan,39.90739,32.794245
+https://www.openstreetmap.org/way/1395193805,,,838,9.6,tahmin_alan,39.882444,32.795323
+https://www.openstreetmap.org/way/1491770109,,detached,836,6.4,tahmin_tur,39.889018,32.794023
+https://www.openstreetmap.org/way/1491770108,,detached,836,6.4,tahmin_tur,39.888719,32.794693
+https://www.openstreetmap.org/way/422148612,,school,827,12.0,tahmin_tur,39.900891,32.793891
+https://www.openstreetmap.org/way/422148634,,school,824,12.0,tahmin_tur,39.902815,32.793593
+https://www.openstreetmap.org/way/422148640,,school,798,12.0,tahmin_tur,39.895601,32.794654
+https://www.openstreetmap.org/way/431068158,,,794,9.6,tahmin_alan,39.905654,32.770261
+https://www.openstreetmap.org/way/422025871,,,791,9.6,tahmin_alan,39.906639,32.792959
+https://www.openstreetmap.org/way/712289392,,restaurant,791,9.6,tahmin_alan,39.903927,32.793117
+https://www.openstreetmap.org/way/422141775,,,777,9.6,tahmin_alan,39.906429,32.789783
+https://www.openstreetmap.org/way/422148592,,university,774,16.0,tahmin_tur_medyan,39.902969,32.795051
+https://www.openstreetmap.org/way/420068013,,,773,9.6,tahmin_alan,39.909398,32.769725
+https://www.openstreetmap.org/way/305141424,,university,761,16.0,tahmin_tur_medyan,39.892206,32.788733
+https://www.openstreetmap.org/way/422025941,,,758,9.6,tahmin_alan,39.906527,32.794938
+https://www.openstreetmap.org/way/1347338597,,,750,9.6,tahmin_alan,39.909071,32.766061
+https://www.openstreetmap.org/way/398471653,,,727,9.6,tahmin_alan,39.909864,32.794834
+https://www.openstreetmap.org/way/420034644,,,717,9.6,tahmin_alan,39.904342,32.766993
+https://www.openstreetmap.org/way/422148602,,school,689,12.0,tahmin_tur,39.895775,32.795165
+https://www.openstreetmap.org/way/332456079,,university,680,16.0,tahmin_tur_medyan,39.892712,32.782165
+https://www.openstreetmap.org/way/420026487,,,678,9.6,tahmin_alan,39.904149,32.762112
+https://www.openstreetmap.org/way/422952787,,,676,9.6,tahmin_alan,39.884307,32.76296
+https://www.openstreetmap.org/way/1166095265,,commercial,672,9.6,tahmin_tur,39.909921,32.767005
+https://www.openstreetmap.org/way/422952777,,,672,9.6,tahmin_alan,39.883018,32.763116
+https://www.openstreetmap.org/way/423686103,,,653,9.6,tahmin_alan,39.901661,32.771231
+https://www.openstreetmap.org/way/423686100,,,653,9.6,tahmin_alan,39.90108,32.770817
+https://www.openstreetmap.org/way/422952782,,,647,9.6,tahmin_alan,39.883223,32.763767
+https://www.openstreetmap.org/way/422952781,,,647,9.6,tahmin_alan,39.883289,32.763978
+https://www.openstreetmap.org/way/422952784,,,646,9.6,tahmin_alan,39.883963,32.763243
+https://www.openstreetmap.org/way/422952779,,,646,9.6,tahmin_alan,39.883105,32.763393
+https://www.openstreetmap.org/way/420266886,,,645,9.6,tahmin_alan,39.891584,32.764926
+https://www.openstreetmap.org/way/420266884,,,645,9.6,tahmin_alan,39.891018,32.765134
+https://www.openstreetmap.org/way/420266889,,,645,9.6,tahmin_alan,39.891181,32.764457
+https://www.openstreetmap.org/way/420266885,,,645,9.6,tahmin_alan,39.891304,32.765029
+https://www.openstreetmap.org/way/420266887,,,645,9.6,tahmin_alan,39.891463,32.764352
+https://www.openstreetmap.org/way/420266888,,,645,9.6,tahmin_alan,39.890895,32.764562
+https://www.openstreetmap.org/way/431068147,,,644,9.6,tahmin_alan,39.905842,32.770309
+https://www.openstreetmap.org/way/431068177,,,638,9.6,tahmin_alan,39.903078,32.77103
+https://www.openstreetmap.org/way/420026485,,,635,9.6,tahmin_alan,39.905079,32.762242
+https://www.openstreetmap.org/way/422148646,,school,634,12.0,tahmin_tur,39.902117,32.793718
+https://www.openstreetmap.org/way/420068003,,,633,9.6,tahmin_alan,39.908648,32.770316
+https://www.openstreetmap.org/way/398471549,,roof,626,4.0,tahmin_tur,39.909563,32.794825
+https://www.openstreetmap.org/way/422952776,,,625,9.6,tahmin_alan,39.88438,32.763144
+https://www.openstreetmap.org/way/422952785,,,625,9.6,tahmin_alan,39.884259,32.762764
+https://www.openstreetmap.org/way/1166095263,,commercial,622,9.6,tahmin_tur,39.909957,32.767824
+https://www.openstreetmap.org/way/420049947,,,616,9.6,tahmin_alan,39.90221,32.764784
+https://www.openstreetmap.org/way/262064424,,university,610,16.0,tahmin_tur_medyan,39.891614,32.78952
+https://www.openstreetmap.org/way/430982897,,,605,9.6,tahmin_alan,39.891432,32.795225
+https://www.openstreetmap.org/way/420067983,,apartments,605,16.0,tahmin_tur_medyan,39.897552,32.762987
+https://www.openstreetmap.org/way/420067985,,apartments,604,16.0,tahmin_tur_medyan,39.897521,32.763517
+https://www.openstreetmap.org/way/420067986,,apartments,604,16.0,tahmin_tur_medyan,39.897583,32.762471
+https://www.openstreetmap.org/way/420299552,,,603,9.6,tahmin_alan,39.909669,32.789399
+https://www.openstreetmap.org/way/1456829918,,apartments,598,16.0,tahmin_tur_medyan,39.894823,32.793668
+https://www.openstreetmap.org/way/1456829915,,apartments,598,16.0,tahmin_tur_medyan,39.895756,32.79387
+https://www.openstreetmap.org/way/1456829916,,apartments,598,16.0,tahmin_tur_medyan,39.895739,32.793476
+https://www.openstreetmap.org/way/1456829914,,apartments,598,16.0,tahmin_tur_medyan,39.896128,32.793694
+https://www.openstreetmap.org/way/1456829913,,apartments,598,16.0,tahmin_tur_medyan,39.896406,32.793747
+https://www.openstreetmap.org/way/1456829919,,apartments,598,16.0,tahmin_tur_medyan,39.895155,32.793994
+https://www.openstreetmap.org/way/1456829917,,apartments,598,16.0,tahmin_tur_medyan,39.894681,32.793311
+https://www.openstreetmap.org/way/1166095262,,commercial,590,9.6,tahmin_tur,39.909821,32.76755
+https://www.openstreetmap.org/way/891488673,,,589,9.6,tahmin_alan,39.889864,32.775243
+https://www.openstreetmap.org/way/891488655,,,585,9.6,tahmin_alan,39.89,32.775653
+https://www.openstreetmap.org/way/1166095261,,commercial,583,9.6,tahmin_tur,39.909662,32.767314
+https://www.openstreetmap.org/way/891488688,,,573,9.6,tahmin_alan,39.890125,32.773892
+https://www.openstreetmap.org/way/422148638,,university,569,16.0,tahmin_tur_medyan,39.903237,32.794175
+https://www.openstreetmap.org/way/422952783,,,565,9.6,tahmin_alan,39.883609,32.763796
+https://www.openstreetmap.org/way/422952780,,,558,9.6,tahmin_alan,39.883959,32.763651
+https://www.openstreetmap.org/way/420034652,,,555,9.6,tahmin_alan,39.904693,32.768433
+https://www.openstreetmap.org/way/431068169,,,551,9.6,tahmin_alan,39.903399,32.769841
+https://www.openstreetmap.org/way/422141781,,,548,9.6,tahmin_alan,39.906807,32.787703
+https://www.openstreetmap.org/way/420067990,,,548,9.6,tahmin_alan,39.909731,32.771106
+https://www.openstreetmap.org/way/420067995,,,548,9.6,tahmin_alan,39.909471,32.771542
+https://www.openstreetmap.org/way/891488681,,,547,9.6,tahmin_alan,39.891154,32.773445
+https://www.openstreetmap.org/way/1166095266,,commercial,542,9.6,tahmin_tur,39.910091,32.767341
+https://www.openstreetmap.org/way/422026040,,,539,9.6,tahmin_alan,39.908067,32.794289
+https://www.openstreetmap.org/way/422148651,,school,536,12.0,tahmin_tur,39.901495,32.794589
+https://www.openstreetmap.org/way/677287816,,,536,9.6,tahmin_alan,39.909487,32.765943
+https://www.openstreetmap.org/way/431068191,,,534,9.6,tahmin_alan,39.905399,32.769858
+https://www.openstreetmap.org/way/422141755,,,523,9.6,tahmin_alan,39.905511,32.791275
+https://www.openstreetmap.org/way/423686107,,,519,9.6,tahmin_alan,39.901145,32.771408
+https://www.openstreetmap.org/way/444597142,,roof,519,4.0,tahmin_tur,39.909195,32.790285
+https://www.openstreetmap.org/way/305141423,,,519,9.6,tahmin_alan,39.891838,32.788944
+https://www.openstreetmap.org/way/891488686,,,515,9.6,tahmin_alan,39.88925,32.77356
+https://www.openstreetmap.org/way/422025866,,,507,9.6,tahmin_alan,39.907954,32.792447
+https://www.openstreetmap.org/way/422952786,,,502,9.6,tahmin_alan,39.882403,32.762965
+https://www.openstreetmap.org/way/422952778,,,502,9.6,tahmin_alan,39.882207,32.763072
+https://www.openstreetmap.org/way/431068188,,,490,9.6,tahmin_alan,39.905059,32.770857
+https://www.openstreetmap.org/way/1347338596,,,487,9.6,tahmin_alan,39.909288,32.765992
+https://www.openstreetmap.org/way/431068193,,,487,9.6,tahmin_alan,39.902606,32.77064
+https://www.openstreetmap.org/way/431068182,,,486,9.6,tahmin_alan,39.905683,32.769829
+https://www.openstreetmap.org/way/467668312,,university,486,16.0,tahmin_tur_medyan,39.892205,32.787868
+https://www.openstreetmap.org/way/420034660,,,480,9.6,tahmin_alan,39.908902,32.761827
+https://www.openstreetmap.org/way/1062069330,,,479,9.6,tahmin_alan,39.908593,32.769614
+https://www.openstreetmap.org/way/891488672,,,478,9.6,tahmin_alan,39.889022,32.774239
+https://www.openstreetmap.org/way/891488682,,,478,9.6,tahmin_alan,39.890941,32.773556
+https://www.openstreetmap.org/way/422026041,,,476,9.6,tahmin_alan,39.908611,32.794838
+https://www.openstreetmap.org/way/420299587,,,467,9.6,tahmin_alan,39.909872,32.789265
+https://www.openstreetmap.org/way/420299612,,,464,9.6,tahmin_alan,39.909461,32.789284
+https://www.openstreetmap.org/way/677287810,,,463,9.6,tahmin_alan,39.910087,32.766277
+https://www.openstreetmap.org/way/431068186,,,460,9.6,tahmin_alan,39.905184,32.769782
+https://www.openstreetmap.org/way/431068156,,,457,9.6,tahmin_alan,39.903143,32.769995
+https://www.openstreetmap.org/way/422148626,,university,449,16.0,tahmin_tur_medyan,39.902826,32.794627
+https://www.openstreetmap.org/way/431068149,,roof,447,4.0,tahmin_tur,39.909404,32.791422
+https://www.openstreetmap.org/way/431068884,,,446,9.6,tahmin_alan,39.892075,32.764042
+https://www.openstreetmap.org/way/431068166,,,442,9.6,tahmin_alan,39.905912,32.769448
+https://www.openstreetmap.org/way/463852624,,,439,9.6,tahmin_alan,39.890603,32.77262
+https://www.openstreetmap.org/way/463852622,,,439,9.6,tahmin_alan,39.890459,32.771959
+https://www.openstreetmap.org/way/463852625,,,439,9.6,tahmin_alan,39.890938,32.772128
+https://www.openstreetmap.org/way/463852623,,,439,9.6,tahmin_alan,39.890555,32.771317
+https://www.openstreetmap.org/way/463852621,,,439,9.6,tahmin_alan,39.89007,32.771775
+https://www.openstreetmap.org/way/463852626,,,438,9.6,tahmin_alan,39.890992,32.771462
+https://www.openstreetmap.org/way/1246790753,,,422,9.6,tahmin_alan,39.910073,32.78349
+https://www.openstreetmap.org/way/430910074,,university,419,16.0,tahmin_tur_medyan,39.889767,32.790661
+https://www.openstreetmap.org/way/431068165,,,409,9.6,tahmin_alan,39.906208,32.769616
+https://www.openstreetmap.org/way/1166095267,,commercial,407,9.6,tahmin_tur,39.909213,32.766587
+https://www.openstreetmap.org/way/422141742,,,405,9.6,tahmin_alan,39.907603,32.788198
+https://www.openstreetmap.org/way/891488687,,,402,9.6,tahmin_alan,39.889706,32.773732
+https://www.openstreetmap.org/way/423686085,,,400,9.6,tahmin_alan,39.893533,32.789692
+https://www.openstreetmap.org/way/431068174,,,399,9.6,tahmin_alan,39.905287,32.770252
+https://www.openstreetmap.org/way/1242952911,,,396,9.6,tahmin_alan,39.899075,32.7952
+https://www.openstreetmap.org/way/431068146,,,393,9.6,tahmin_alan,39.903797,32.771297
+https://www.openstreetmap.org/way/891488662,,,393,9.6,tahmin_alan,39.89141,32.773958
+https://www.openstreetmap.org/way/420026486,,,390,9.6,tahmin_alan,39.905564,32.763267
+https://www.openstreetmap.org/way/891488691,,,386,9.6,tahmin_alan,39.890282,32.773573
+https://www.openstreetmap.org/way/891488689,,,385,9.6,tahmin_alan,39.890553,32.774062
+https://www.openstreetmap.org/way/891488665,,,385,9.6,tahmin_alan,39.890022,32.774588
+https://www.openstreetmap.org/way/891488671,,,385,9.6,tahmin_alan,39.889397,32.774118
+https://www.openstreetmap.org/way/891488666,,,385,9.6,tahmin_alan,39.889736,32.774847
+https://www.openstreetmap.org/way/891488683,,,385,9.6,tahmin_alan,39.889578,32.774417
+https://www.openstreetmap.org/way/891488690,,,384,9.6,tahmin_alan,39.890593,32.773717
+https://www.openstreetmap.org/way/891488674,,,381,9.6,tahmin_alan,39.890225,32.774988
+https://www.openstreetmap.org/way/891488656,,,376,9.6,tahmin_alan,39.890377,32.775403
+https://www.openstreetmap.org/way/677287815,,,376,9.6,tahmin_alan,39.909704,32.765899
+https://www.openstreetmap.org/way/431068195,,university,368,16.0,tahmin_tur_medyan,39.892841,32.781623
+https://www.openstreetmap.org/way/431068168,,,367,9.6,tahmin_alan,39.906212,32.77047
+https://www.openstreetmap.org/way/891488658,,,366,9.6,tahmin_alan,39.890917,32.775043
+https://www.openstreetmap.org/way/431068176,,,358,9.6,tahmin_alan,39.90532,32.770774
+https://www.openstreetmap.org/way/422026038,,,357,9.6,tahmin_alan,39.907892,32.794057
+https://www.openstreetmap.org/way/677287814,,,356,9.6,tahmin_alan,39.909861,32.766341
+https://www.openstreetmap.org/way/430910080,,university,348,16.0,tahmin_tur_medyan,39.889714,32.791064
+https://www.openstreetmap.org/way/430910082,,university,348,16.0,tahmin_tur_medyan,39.889905,32.791344
+https://www.openstreetmap.org/way/431068167,,,346,9.6,tahmin_alan,39.905723,32.770634
+https://www.openstreetmap.org/way/891488680,,,343,9.6,tahmin_alan,39.891471,32.774314
+https://www.openstreetmap.org/way/422141768,,,335,9.6,tahmin_alan,39.906285,32.787922
+https://www.openstreetmap.org/way/422141756,,,334,9.6,tahmin_alan,39.907247,32.789767
+https://www.openstreetmap.org/way/431068151,,,328,9.6,tahmin_alan,39.905662,32.769666
+https://www.openstreetmap.org/relation/6296517,,university,328,16.0,tahmin_tur_medyan,39.902289,32.772901
+https://www.openstreetmap.org/way/891488676,,,327,9.6,tahmin_alan,39.891051,32.774156
+https://www.openstreetmap.org/way/420034628,,,322,9.6,tahmin_alan,39.90409,32.768872
+https://www.openstreetmap.org/way/262196731,,university,321,16.0,tahmin_tur_medyan,39.892058,32.788401
+https://www.openstreetmap.org/way/422148633,,school,320,12.0,tahmin_tur,39.901202,32.794535
+https://www.openstreetmap.org/way/422141751,,,319,9.6,tahmin_alan,39.906113,32.790596
+https://www.openstreetmap.org/way/891488675,,,317,9.6,tahmin_alan,39.890502,32.774803
+https://www.openstreetmap.org/way/431068161,,,317,9.6,tahmin_alan,39.906087,32.770521
+https://www.openstreetmap.org/way/891488667,,,313,9.6,tahmin_alan,39.889443,32.77497
+https://www.openstreetmap.org/way/431068159,,,313,9.6,tahmin_alan,39.905264,32.770519
+https://www.openstreetmap.org/way/431068179,,,310,9.6,tahmin_alan,39.904036,32.770698
+https://www.openstreetmap.org/way/431068152,,,301,9.6,tahmin_alan,39.905298,32.765395
+https://www.openstreetmap.org/way/420068029,,,301,9.6,tahmin_alan,39.896833,32.763061
+https://www.openstreetmap.org/way/305141413,,,298,6.4,tahmin_alan,39.892132,32.788128
+https://www.openstreetmap.org/way/891488678,,,297,6.4,tahmin_alan,39.889828,32.774289
+https://www.openstreetmap.org/way/891488677,,,297,6.4,tahmin_alan,39.890272,32.774463
+https://www.openstreetmap.org/way/891488679,,,297,6.4,tahmin_alan,39.890732,32.774651
+https://www.openstreetmap.org/way/1420749616,,university,297,16.0,tahmin_tur_medyan,39.88939,32.785863
+https://www.openstreetmap.org/way/422141744,,,297,6.4,tahmin_alan,39.908186,32.788695
+https://www.openstreetmap.org/way/431068183,,,292,6.4,tahmin_alan,39.905924,32.770971
+https://www.openstreetmap.org/way/891488694,,,291,6.4,tahmin_alan,39.88969,32.773361
+https://www.openstreetmap.org/way/891488664,,,291,6.4,tahmin_alan,39.891537,32.773469
+https://www.openstreetmap.org/way/891488663,,,291,6.4,tahmin_alan,39.891687,32.773814
+https://www.openstreetmap.org/way/891488669,,,289,6.4,tahmin_alan,39.889306,32.774579
+https://www.openstreetmap.org/way/891488668,,,289,6.4,tahmin_alan,39.889253,32.775165
+https://www.openstreetmap.org/way/423686086,,university,287,16.0,tahmin_tur_medyan,39.902279,32.773171
+https://www.openstreetmap.org/way/891488657,,,286,6.4,tahmin_alan,39.890643,32.775221
+https://www.openstreetmap.org/way/891488661,,,281,6.4,tahmin_alan,39.891627,32.77459
+https://www.openstreetmap.org/way/422141749,,,276,6.4,tahmin_alan,39.90742,32.790102
+https://www.openstreetmap.org/way/1421150518,,,275,6.4,tahmin_alan,39.89258,32.769859
+https://www.openstreetmap.org/way/422141740,,,273,6.4,tahmin_alan,39.907946,32.78721
+https://www.openstreetmap.org/way/422141747,,,273,6.4,tahmin_alan,39.907708,32.787535
+https://www.openstreetmap.org/way/422141750,,,273,6.4,tahmin_alan,39.90753,32.787378
+https://www.openstreetmap.org/way/422141745,,,273,6.4,tahmin_alan,39.907708,32.787079
+https://www.openstreetmap.org/way/422141746,,,273,6.4,tahmin_alan,39.908034,32.78756
+https://www.openstreetmap.org/way/420034662,,,269,6.4,tahmin_alan,39.904913,32.767588
+https://www.openstreetmap.org/way/420034637,,,267,6.4,tahmin_alan,39.904814,32.768686
+https://www.openstreetmap.org/way/431068180,,,266,6.4,tahmin_alan,39.905531,32.77024
+https://www.openstreetmap.org/way/423686130,,university,263,16.0,tahmin_tur_medyan,39.890509,32.776072
+https://www.openstreetmap.org/way/431068184,,,262,6.4,tahmin_alan,39.90552,32.771332
+https://www.openstreetmap.org/way/431068173,,,256,6.4,tahmin_alan,39.905632,32.769422
+https://www.openstreetmap.org/way/422148595,,school,252,12.0,tahmin_tur,39.902979,32.793722
+https://www.openstreetmap.org/way/420068016,,,250,6.4,tahmin_alan,39.908571,32.770695
+https://www.openstreetmap.org/way/422148597,,school,249,12.0,tahmin_tur,39.901939,32.793895
+https://www.openstreetmap.org/way/423686170,,,244,6.4,tahmin_alan,39.892359,32.790506
+https://www.openstreetmap.org/way/398471558,,,241,6.4,tahmin_alan,39.909664,32.794564
+https://www.openstreetmap.org/way/431068160,,,238,6.4,tahmin_alan,39.904564,32.77101
+https://www.openstreetmap.org/way/422141738,,,237,6.4,tahmin_alan,39.906528,32.790726
+https://www.openstreetmap.org/way/422141780,,,233,6.4,tahmin_alan,39.905812,32.787972
+https://www.openstreetmap.org/way/422141736,,,230,6.4,tahmin_alan,39.906477,32.787728
+https://www.openstreetmap.org/way/230476313,,public,227,12.0,tahmin_tur,39.891698,32.78074
+https://www.openstreetmap.org/way/422148617,,school,227,12.0,tahmin_tur,39.900572,32.793811
+https://www.openstreetmap.org/way/891488670,,,226,6.4,tahmin_alan,39.889113,32.774662
+https://www.openstreetmap.org/way/431038980,,apartments,226,16.0,tahmin_tur_medyan,39.898442,32.794036
+https://www.openstreetmap.org/way/431038961,,apartments,226,16.0,tahmin_tur_medyan,39.899055,32.793668
+https://www.openstreetmap.org/way/431038937,,apartments,226,16.0,tahmin_tur_medyan,39.8985,32.793822
+https://www.openstreetmap.org/way/431038967,,apartments,226,16.0,tahmin_tur_medyan,39.899417,32.794074
+https://www.openstreetmap.org/way/431038926,,apartments,226,16.0,tahmin_tur_medyan,39.899379,32.793852
+https://www.openstreetmap.org/way/431038998,,apartments,226,16.0,tahmin_tur_medyan,39.898884,32.793619
+https://www.openstreetmap.org/way/431038840,,apartments,226,16.0,tahmin_tur_medyan,39.896981,32.794694
+https://www.openstreetmap.org/way/431038797,,apartments,226,16.0,tahmin_tur_medyan,39.898714,32.793618
+https://www.openstreetmap.org/way/431038702,,apartments,226,16.0,tahmin_tur_medyan,39.894125,32.795035
+https://www.openstreetmap.org/way/431038717,,apartments,226,16.0,tahmin_tur_medyan,39.89701,32.794475
+https://www.openstreetmap.org/way/431038748,,apartments,226,16.0,tahmin_tur_medyan,39.897274,32.793785
+https://www.openstreetmap.org/way/431038874,,apartments,226,16.0,tahmin_tur_medyan,39.897257,32.794006
+https://www.openstreetmap.org/way/431038681,,apartments,226,16.0,tahmin_tur_medyan,39.897642,32.794544
+https://www.openstreetmap.org/way/431038704,,apartments,226,16.0,tahmin_tur_medyan,39.898525,32.794697
+https://www.openstreetmap.org/way/431038739,,apartments,226,16.0,tahmin_tur_medyan,39.897304,32.794486
+https://www.openstreetmap.org/way/431038671,,apartments,225,16.0,tahmin_tur_medyan,39.897855,32.793668
+https://www.openstreetmap.org/way/431038736,,apartments,225,16.0,tahmin_tur_medyan,39.896721,32.793929
+https://www.openstreetmap.org/way/431038726,,apartments,225,16.0,tahmin_tur_medyan,39.897838,32.793889
+https://www.openstreetmap.org/way/431038848,,apartments,225,16.0,tahmin_tur_medyan,39.896902,32.793741
+https://www.openstreetmap.org/way/431038793,,apartments,225,16.0,tahmin_tur_medyan,39.896827,32.794398
+https://www.openstreetmap.org/way/431038809,,apartments,225,16.0,tahmin_tur_medyan,39.899625,32.794551
+https://www.openstreetmap.org/way/431038882,,apartments,225,16.0,tahmin_tur_medyan,39.899159,32.794142
+https://www.openstreetmap.org/way/431038772,,apartments,225,16.0,tahmin_tur_medyan,39.898819,32.794134
+https://www.openstreetmap.org/way/431038764,,apartments,225,16.0,tahmin_tur_medyan,39.898989,32.794138
+https://www.openstreetmap.org/way/431038813,,apartments,225,16.0,tahmin_tur_medyan,39.898356,32.794668
+https://www.openstreetmap.org/way/431038720,,apartments,225,16.0,tahmin_tur_medyan,39.894392,32.795037
+https://www.openstreetmap.org/way/431038686,,apartments,225,16.0,tahmin_tur_medyan,39.894536,32.794919
+https://www.openstreetmap.org/way/431038816,,apartments,225,16.0,tahmin_tur_medyan,39.898803,32.794805
+https://www.openstreetmap.org/way/431038731,,apartments,225,16.0,tahmin_tur_medyan,39.899696,32.794753
+https://www.openstreetmap.org/way/431038685,,apartments,225,16.0,tahmin_tur_medyan,39.898115,32.794201
+https://www.openstreetmap.org/way/431038729,,apartments,225,16.0,tahmin_tur_medyan,39.899272,32.794765
+https://www.openstreetmap.org/way/431038875,,apartments,225,16.0,tahmin_tur_medyan,39.899238,32.794548
+https://www.openstreetmap.org/way/431038887,,apartments,225,16.0,tahmin_tur_medyan,39.897639,32.793588
+https://www.openstreetmap.org/way/431038695,,apartments,225,16.0,tahmin_tur_medyan,39.898291,32.793607
+https://www.openstreetmap.org/way/431038724,,apartments,225,16.0,tahmin_tur_medyan,39.897469,32.793566
+https://www.openstreetmap.org/way/431038693,,apartments,225,16.0,tahmin_tur_medyan,39.896658,32.794368
+https://www.openstreetmap.org/way/431038703,,apartments,225,16.0,tahmin_tur_medyan,39.899554,32.794349
+https://www.openstreetmap.org/way/431038853,,apartments,225,16.0,tahmin_tur_medyan,39.899308,32.79365
+https://www.openstreetmap.org/way/431038673,,apartments,225,16.0,tahmin_tur_medyan,39.898019,32.79461
+https://www.openstreetmap.org/way/431038779,,apartments,225,16.0,tahmin_tur_medyan,39.898122,32.793585
+https://www.openstreetmap.org/way/431038683,,apartments,225,16.0,tahmin_tur_medyan,39.897071,32.793771
+https://www.openstreetmap.org/way/431038750,,apartments,225,16.0,tahmin_tur_medyan,39.898421,32.794257
+https://www.openstreetmap.org/way/431038734,,apartments,225,16.0,tahmin_tur_medyan,39.898188,32.794639
+https://www.openstreetmap.org/way/431038746,,apartments,225,16.0,tahmin_tur_medyan,39.897473,32.794515
+https://www.openstreetmap.org/way/431068154,,,223,6.4,tahmin_alan,39.905964,32.770521
+https://www.openstreetmap.org/way/422026025,,,220,6.4,tahmin_alan,39.908501,32.794576
+https://www.openstreetmap.org/way/422148632,,university,219,16.0,tahmin_tur_medyan,39.90341,32.794061
+https://www.openstreetmap.org/way/430982899,,university,217,16.0,tahmin_tur_medyan,39.891575,32.778747
+https://www.openstreetmap.org/way/430910103,,apartments,215,16.0,tahmin_tur_medyan,39.888665,32.775252
+https://www.openstreetmap.org/way/430910099,,apartments,215,16.0,tahmin_tur_medyan,39.888499,32.775182
+https://www.openstreetmap.org/way/422141753,,,213,6.4,tahmin_alan,39.905458,32.790629
+https://www.openstreetmap.org/way/423686124,,university,212,16.0,tahmin_tur_medyan,39.902165,32.773251
+https://www.openstreetmap.org/way/712289393,,cafe,210,6.4,tahmin_alan,39.904054,32.793637
+https://www.openstreetmap.org/way/420067980,,,205,6.4,tahmin_alan,39.897086,32.762174
+https://www.openstreetmap.org/way/431068163,,,203,6.4,tahmin_alan,39.905289,32.77099
+https://www.openstreetmap.org/way/230476312,,public,191,12.0,tahmin_tur,39.891697,32.780542
+https://www.openstreetmap.org/way/423686151,,,188,6.4,tahmin_alan,39.890952,32.790845
+https://www.openstreetmap.org/way/423686148,,,187,6.4,tahmin_alan,39.891237,32.790454
+https://www.openstreetmap.org/way/423686159,,,187,6.4,tahmin_alan,39.891074,32.790836
+https://www.openstreetmap.org/way/423686171,,,187,6.4,tahmin_alan,39.89058,32.790891
+https://www.openstreetmap.org/way/423686157,,,187,6.4,tahmin_alan,39.891363,32.790788
+https://www.openstreetmap.org/way/423686164,,,187,6.4,tahmin_alan,39.890996,32.791211
+https://www.openstreetmap.org/way/423686162,,,187,6.4,tahmin_alan,39.890459,32.7909
+https://www.openstreetmap.org/way/423686175,,,187,6.4,tahmin_alan,39.890649,32.790514
+https://www.openstreetmap.org/way/423686161,,,187,6.4,tahmin_alan,39.890704,32.791244
+https://www.openstreetmap.org/way/423686158,,,187,6.4,tahmin_alan,39.890874,32.791221
+https://www.openstreetmap.org/way/423686154,,,187,6.4,tahmin_alan,39.890583,32.791253
+https://www.openstreetmap.org/way/423686150,,,187,6.4,tahmin_alan,39.891242,32.790797
+https://www.openstreetmap.org/way/423686168,,,187,6.4,tahmin_alan,39.890721,32.790863
+https://www.openstreetmap.org/way/423686149,,,187,6.4,tahmin_alan,39.891291,32.791182
+https://www.openstreetmap.org/way/423686156,,,187,6.4,tahmin_alan,39.890528,32.790524
+https://www.openstreetmap.org/way/423686144,,,187,6.4,tahmin_alan,39.89117,32.791191
+https://www.openstreetmap.org/way/423686165,,,187,6.4,tahmin_alan,39.891116,32.790463
+https://www.openstreetmap.org/way/422141748,,,187,6.4,tahmin_alan,39.905964,32.790161
+https://www.openstreetmap.org/way/423686105,,,185,6.4,tahmin_alan,39.901463,32.77069
+https://www.openstreetmap.org/way/891488660,,,184,6.4,tahmin_alan,39.891292,32.774815
+https://www.openstreetmap.org/way/891488659,,,184,6.4,tahmin_alan,39.891113,32.774768
+https://www.openstreetmap.org/way/422025999,,,184,6.4,tahmin_alan,39.908302,32.792955
+https://www.openstreetmap.org/way/891488684,,,184,6.4,tahmin_alan,39.889002,32.774852
+https://www.openstreetmap.org/way/891488685,,,184,6.4,tahmin_alan,39.888773,32.774478
+https://www.openstreetmap.org/way/423686145,,,183,6.4,tahmin_alan,39.893126,32.789863
+https://www.openstreetmap.org/way/422141739,,,183,6.4,tahmin_alan,39.905847,32.790465
+https://www.openstreetmap.org/way/423686083,,,181,6.4,tahmin_alan,39.893045,32.790205
+https://www.openstreetmap.org/way/423686174,,,178,6.4,tahmin_alan,39.892859,32.790256
+https://www.openstreetmap.org/way/430910096,,apartments,177,16.0,tahmin_tur_medyan,39.888189,32.775052
+https://www.openstreetmap.org/way/430910107,,apartments,177,16.0,tahmin_tur_medyan,39.888052,32.774995
+https://www.openstreetmap.org/way/430910110,,apartments,177,16.0,tahmin_tur_medyan,39.888325,32.775109
+https://www.openstreetmap.org/way/1062069332,,,176,6.4,tahmin_alan,39.908561,32.769937
+https://www.openstreetmap.org/way/422141741,,,176,6.4,tahmin_alan,39.907036,32.789897
+https://www.openstreetmap.org/way/420068026,,,176,6.4,tahmin_alan,39.896978,32.762401
+https://www.openstreetmap.org/way/891488693,,,173,6.4,tahmin_alan,39.89007,32.773441
+https://www.openstreetmap.org/way/891488695,,,173,6.4,tahmin_alan,39.889458,32.773286
+https://www.openstreetmap.org/way/891488696,,,173,6.4,tahmin_alan,39.889318,32.773178
+https://www.openstreetmap.org/way/891488692,,,173,6.4,tahmin_alan,39.889888,32.773383
+https://www.openstreetmap.org/way/422025876,,,173,6.4,tahmin_alan,39.907858,32.792451
+https://www.openstreetmap.org/way/1491770107,,detached,171,6.4,tahmin_tur,39.889074,32.794799
+https://www.openstreetmap.org/way/1491770106,,detached,171,6.4,tahmin_tur,39.889246,32.795105
+https://www.openstreetmap.org/way/1491770093,,detached,171,6.4,tahmin_tur,39.889413,32.7944
+https://www.openstreetmap.org/way/1491770092,,detached,171,6.4,tahmin_tur,39.889553,32.794374
+https://www.openstreetmap.org/way/1491770097,,detached,171,6.4,tahmin_tur,39.890074,32.794255
+https://www.openstreetmap.org/way/1491770100,,detached,171,6.4,tahmin_tur,39.890269,32.794739
+https://www.openstreetmap.org/way/1491770101,,detached,171,6.4,tahmin_tur,39.889096,32.794991
+https://www.openstreetmap.org/way/1491770102,,detached,171,6.4,tahmin_tur,39.890204,32.794963
+https://www.openstreetmap.org/way/1491770094,,detached,171,6.4,tahmin_tur,39.889279,32.794425
+https://www.openstreetmap.org/way/1491770098,,detached,171,6.4,tahmin_tur,39.890208,32.794227
+https://www.openstreetmap.org/way/1491770096,,detached,171,6.4,tahmin_tur,39.88993,32.794289
+https://www.openstreetmap.org/way/1491770095,,detached,171,6.4,tahmin_tur,39.889796,32.794323
+https://www.openstreetmap.org/way/1491770099,,detached,171,6.4,tahmin_tur,39.890247,32.794552
+https://www.openstreetmap.org/way/431068181,,,169,6.4,tahmin_alan,39.904974,32.769479
+https://www.openstreetmap.org/way/422141773,,,167,6.4,tahmin_alan,39.90589,32.787827
+https://www.openstreetmap.org/way/422141754,,,167,6.4,tahmin_alan,39.907147,32.789615
+https://www.openstreetmap.org/way/423686129,,university,165,16.0,tahmin_tur_medyan,39.900037,32.778317
+https://www.openstreetmap.org/way/422141737,,,163,6.4,tahmin_alan,39.905433,32.791486
+https://www.openstreetmap.org/way/1142008823,,hospital,161,12.0,tahmin_tur,39.902062,32.762577
+https://www.openstreetmap.org/way/431068171,,,160,6.4,tahmin_alan,39.906472,32.768938
+https://www.openstreetmap.org/way/420049946,,,157,6.4,tahmin_alan,39.90213,32.764637
+https://www.openstreetmap.org/way/420068011,,,156,6.4,tahmin_alan,39.909515,32.769859
+https://www.openstreetmap.org/way/680603898,,cafe,155,6.4,tahmin_alan,39.896921,32.792868
+https://www.openstreetmap.org/way/305141415,,,155,6.4,tahmin_alan,39.891873,32.788719
+https://www.openstreetmap.org/way/422026045,,,138,6.4,tahmin_alan,39.908161,32.794561
+https://www.openstreetmap.org/way/423686131,,,138,6.4,tahmin_alan,39.898102,32.775365
+https://www.openstreetmap.org/way/1421150519,,,134,6.4,tahmin_alan,39.892459,32.769643
+https://www.openstreetmap.org/way/420068015,,,132,6.4,tahmin_alan,39.896563,32.76316
+https://www.openstreetmap.org/way/430982900,,university,132,16.0,tahmin_tur_medyan,39.890395,32.778135
+https://www.openstreetmap.org/way/431068187,,,131,6.4,tahmin_alan,39.904605,32.793819
+https://www.openstreetmap.org/way/420068014,,,131,6.4,tahmin_alan,39.896744,32.762716
+https://www.openstreetmap.org/way/422141771,,,131,6.4,tahmin_alan,39.906233,32.791247
+https://www.openstreetmap.org/way/1347338598,,,130,6.4,tahmin_alan,39.908886,32.766132
+https://www.openstreetmap.org/way/1091216354,,roof,127,4.0,tahmin_tur,39.907594,32.763202
+https://www.openstreetmap.org/way/422025962,,,126,6.4,tahmin_alan,39.906271,32.794779
+https://www.openstreetmap.org/way/422148625,,school,126,12.0,tahmin_tur,39.895632,32.795086
+https://www.openstreetmap.org/way/420026466,,,126,6.4,tahmin_alan,39.906806,32.76313
+https://www.openstreetmap.org/way/420026470,,,126,6.4,tahmin_alan,39.906096,32.762767
+https://www.openstreetmap.org/way/420026468,,,126,6.4,tahmin_alan,39.906283,32.763395
+https://www.openstreetmap.org/way/420026469,,,126,6.4,tahmin_alan,39.906619,32.762503
+https://www.openstreetmap.org/way/431068153,,,125,6.4,tahmin_alan,39.906539,32.768745
+https://www.openstreetmap.org/way/422148630,,university,121,16.0,tahmin_tur_medyan,39.903185,32.794043
+https://www.openstreetmap.org/way/420067997,,,121,6.4,tahmin_alan,39.896661,32.763223
+https://www.openstreetmap.org/way/431068178,,,119,6.4,tahmin_alan,39.904154,32.771421
+https://www.openstreetmap.org/way/420067999,,,118,6.4,tahmin_alan,39.896838,32.762785
+https://www.openstreetmap.org/way/1091216353,,roof,113,4.0,tahmin_tur,39.907524,32.763833
+https://www.openstreetmap.org/way/423686177,,,113,6.4,tahmin_alan,39.893367,32.789764
+https://www.openstreetmap.org/way/423686137,,,113,6.4,tahmin_alan,39.892737,32.789934
+https://www.openstreetmap.org/way/423686146,,,113,6.4,tahmin_alan,39.891769,32.790237
+https://www.openstreetmap.org/way/423686166,,,113,6.4,tahmin_alan,39.891984,32.790565
+https://www.openstreetmap.org/way/423686173,,,113,6.4,tahmin_alan,39.89222,32.790137
+https://www.openstreetmap.org/way/423686134,,,113,6.4,tahmin_alan,39.892323,32.790092
+https://www.openstreetmap.org/way/423686140,,,113,6.4,tahmin_alan,39.892087,32.79052
+https://www.openstreetmap.org/way/423686142,,,113,6.4,tahmin_alan,39.891547,32.790691
+https://www.openstreetmap.org/way/423686153,,,113,6.4,tahmin_alan,39.89165,32.790647
+https://www.openstreetmap.org/way/423686176,,,113,6.4,tahmin_alan,39.891872,32.790192
+https://www.openstreetmap.org/way/423686141,,,113,6.4,tahmin_alan,39.892679,32.79035
+https://www.openstreetmap.org/way/423686133,,,113,6.4,tahmin_alan,39.891753,32.790602
+https://www.openstreetmap.org/way/423686147,,,113,6.4,tahmin_alan,39.892576,32.790395
+https://www.openstreetmap.org/way/423686163,,,113,6.4,tahmin_alan,39.892117,32.790181
+https://www.openstreetmap.org/way/423686155,,,113,6.4,tahmin_alan,39.892634,32.789979
+https://www.openstreetmap.org/way/423686160,,,113,6.4,tahmin_alan,39.891881,32.790609
+https://www.openstreetmap.org/way/423686152,,,113,6.4,tahmin_alan,39.891666,32.790281
+https://www.openstreetmap.org/way/423686136,,,113,6.4,tahmin_alan,39.891974,32.790148
+https://www.openstreetmap.org/way/430910105,,university,112,16.0,tahmin_tur_medyan,39.885689,32.7801
+https://www.openstreetmap.org/way/431068142,,,112,6.4,tahmin_alan,39.904248,32.771556
+https://www.openstreetmap.org/way/431068144,,,112,6.4,tahmin_alan,39.904373,32.771554
+https://www.openstreetmap.org/way/1091216351,,roof,112,4.0,tahmin_tur,39.907171,32.765858
+https://www.openstreetmap.org/way/423686082,,,112,6.4,tahmin_alan,39.893267,32.789811
+https://www.openstreetmap.org/way/431068145,,,109,6.4,tahmin_alan,39.905165,32.771184
+https://www.openstreetmap.org/way/420034631,,,109,6.4,tahmin_alan,39.905039,32.767985
+https://www.openstreetmap.org/way/423686116,,,106,6.4,tahmin_alan,39.892277,32.790446
+https://www.openstreetmap.org/way/420068006,,,100,6.4,tahmin_alan,39.896744,32.76328
+https://www.openstreetmap.org/way/423686178,,university,99,16.0,tahmin_tur_medyan,39.902358,32.77302
+https://www.openstreetmap.org/way/420067991,,,99,6.4,tahmin_alan,39.896921,32.762842
+https://www.openstreetmap.org/way/420088758,,,96,6.4,tahmin_alan,39.897216,32.761958
+https://www.openstreetmap.org/way/431068155,,,94,6.4,tahmin_alan,39.904288,32.771316
+https://www.openstreetmap.org/way/1091216355,,roof,94,4.0,tahmin_tur,39.908096,32.763554
+https://www.openstreetmap.org/way/422141743,,,87,6.4,tahmin_alan,39.905977,32.791173
+https://www.openstreetmap.org/way/430982896,,university,86,16.0,tahmin_tur_medyan,39.891368,32.778851
+https://www.openstreetmap.org/way/420068012,,,84,6.4,tahmin_alan,39.896771,32.763019
+https://www.openstreetmap.org/way/423686113,,,80,6.4,tahmin_alan,39.897886,32.775274
+https://www.openstreetmap.org/way/420040744,,,75,6.4,tahmin_alan,39.909458,32.78016
+https://www.openstreetmap.org/way/420040745,,,75,6.4,tahmin_alan,39.90945,32.779508
+https://www.openstreetmap.org/way/420040747,,,75,6.4,tahmin_alan,39.908962,32.780172
+https://www.openstreetmap.org/way/420040746,,,75,6.4,tahmin_alan,39.908952,32.77952
+https://www.openstreetmap.org/way/1062069331,,,73,6.4,tahmin_alan,39.908782,32.770007
+https://www.openstreetmap.org/way/422148620,,university,65,16.0,tahmin_tur_medyan,39.902142,32.794987
+https://www.openstreetmap.org/way/422141752,,,64,6.4,tahmin_alan,39.908437,32.791409
+https://www.openstreetmap.org/way/422148631,,university,61,16.0,tahmin_tur_medyan,39.90337,32.793921
+https://www.openstreetmap.org/way/431068175,,,60,6.4,tahmin_alan,39.904186,32.771081
+https://www.openstreetmap.org/way/431068140,,,58,3.2,tahmin_alan,39.904018,32.771532
+https://www.openstreetmap.org/way/431068141,,,58,3.2,tahmin_alan,39.904122,32.771536
+https://www.openstreetmap.org/way/305141426,,university,57,16.0,tahmin_tur_medyan,39.893085,32.788012
+https://www.openstreetmap.org/way/1010223307,,,53,3.2,tahmin_alan,39.890117,32.781602
+https://www.openstreetmap.org/way/423686120,,,52,3.2,tahmin_alan,39.893051,32.790127
+https://www.openstreetmap.org/way/423686132,,,52,3.2,tahmin_alan,39.893151,32.790118
+https://www.openstreetmap.org/way/1479173779,,roof,51,4.0,tahmin_tur,39.894952,32.763977
+https://www.openstreetmap.org/way/380299144,,,50,3.2,tahmin_alan,39.890853,32.767265
+https://www.openstreetmap.org/way/330444150,,roof,47,4.0,tahmin_tur,39.89429,32.781622
+https://www.openstreetmap.org/way/422148637,,school,45,12.0,tahmin_tur,39.902612,32.793946
+https://www.openstreetmap.org/way/422148648,,school,43,12.0,tahmin_tur,39.90246,32.793662
+https://www.openstreetmap.org/way/1497467593,,,42,3.2,tahmin_alan,39.908563,32.789084
+https://www.openstreetmap.org/way/422026043,,,38,3.2,tahmin_alan,39.907987,32.794122
+https://www.openstreetmap.org/way/1494465639,,,36,3.2,tahmin_alan,39.906132,32.783666
+https://www.openstreetmap.org/way/330444149,,university,33,16.0,tahmin_tur_medyan,39.893801,32.781196
+https://www.openstreetmap.org/way/431068139,,,31,3.2,tahmin_alan,39.904016,32.771409
+https://www.openstreetmap.org/way/431068143,,,31,3.2,tahmin_alan,39.904012,32.771314
+https://www.openstreetmap.org/way/422026003,,,30,3.2,tahmin_alan,39.907402,32.7934
+https://www.openstreetmap.org/way/422025948,,,30,3.2,tahmin_alan,39.907386,32.792726
+https://www.openstreetmap.org/way/422026011,,,29,3.2,tahmin_alan,39.907204,32.793408
+https://www.openstreetmap.org/way/422026008,,,28,3.2,tahmin_alan,39.907188,32.792734
+https://www.openstreetmap.org/way/422025969,,,27,3.2,tahmin_alan,39.907009,32.793416
+https://www.openstreetmap.org/way/422025892,,,27,3.2,tahmin_alan,39.907001,32.79309
+https://www.openstreetmap.org/way/422025894,,,27,3.2,tahmin_alan,39.907394,32.793074
+https://www.openstreetmap.org/way/422026013,,,27,3.2,tahmin_alan,39.906993,32.792742
+https://www.openstreetmap.org/way/1239750141,,,26,3.2,tahmin_alan,39.893247,32.771697
+https://www.openstreetmap.org/way/467642094,,university,22,16.0,tahmin_tur_medyan,39.891327,32.78688
+https://www.openstreetmap.org/way/420068000,,,22,3.2,tahmin_alan,39.896879,32.763094
+https://www.openstreetmap.org/way/1239236964,,,18,3.2,tahmin_alan,39.896444,32.77108
+https://www.openstreetmap.org/way/648700283,,roof,15,4.0,tahmin_tur,39.898934,32.781907
+https://www.openstreetmap.org/way/648700282,,,14,3.2,tahmin_alan,39.898808,32.781572
+https://www.openstreetmap.org/way/648700284,,,14,3.2,tahmin_alan,39.898753,32.781583

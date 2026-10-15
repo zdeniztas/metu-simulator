@@ -1,0 +1,48 @@
+{
+ "key": "a1",
+ "name": "A1 Kapısı",
+ "hedef_dosya": "models/a1.glb",
+ "model_var": false,
+ "anchor": {
+  "lat": 39.9076125,
+  "lon": 32.7840389,
+  "zemin_kotu_m": 876.4
+ },
+ "eksenler": "Blender: +X doğu, +Y kuzey, +Z yukarı, metre; orijin = anchor merkezi, z=0 = anchor'daki zemin",
+ "hedef_binalar": [
+  {
+   "id": "way/380300013",
+   "isim": "A1 Kapısı",
+   "su_anki_yukseklik_m": 6.4,
+   "yukseklik_kaynagi": "tahmin_alan",
+   "taban_m2": 204,
+   "ayak_izi_dogu_kuzey_m": [
+    [
+     6.38,
+     10.29
+    ],
+    [
+     -2.6,
+     11.8
+    ],
+    [
+     -6.38,
+     -10.29
+    ],
+    [
+     2.6,
+     -11.8
+    ],
+    [
+     6.38,
+     10.29
+    ]
+   ]
+  }
+ ],
+ "alan_siniri_dogu_kuzey_m": null,
+ "arazi_yerel_min_max_m": [
+  -15.5,
+  16.5
+ ]
+}

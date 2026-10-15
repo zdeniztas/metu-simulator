@@ -1,0 +1,13 @@
+[
+ {"name":"A1 Kapısı ve Bilim Ağacı","desc":"Bilim Ağacı'nın önünde fotoğraf çek.","match":["^Bilim A.ac.$|^Tree of Science$","A1 Gate|A-?1 Kap"],"act":"Fotoğraf çek","r":35,"points":80},
+ {"name":"Bilgi İşlem'e git","desc":"Öğrenci şifreni sıfırla.","match":["Computer Center|Bilgi ?.{0,3}lem"],"act":"Şifreni sıfırla","r":30,"points":100},
+ {"name":"Öğrenci İşleri","desc":"Belgeni al.","match":["Registrar|.renci .leri"],"act":"Belgeni al","r":30,"points":100},
+ {"name":"Derse gir","desc":"Bilgisayar Mühendisliği'nde derse yetiş.","match":["Computer Engineering|Bilgisayar M"],"act":"Derse gir","r":30,"points":150},
+ {"name":"Bilgisayar'dan kahve al","desc":"Bilgisayar tarafındaki kafeden kahve al.","match":["Bilgisayar.*(Kantin|Kafe|Cafe)|(Computer|CENG).*(Cafe|Canteen|Kantin)","Computer Engineering|Bilgisayar M"],"act":"Kahveni al","r":30,"points":80},
+ {"name":"Kütüphaneye git","desc":"Kitabı iade et.","match":["Central Library|Merkez K.t.phane","Library|K.t.phane"],"act":"Kitabı iade et","r":30,"points":100},
+ {"name":"Çatı'da yemek ye","desc":"Çatı'ya çık, öğle yemeğini ye.","match":["(^|[^a-z])(Çatı|Cat.)( |$)|Roof","Yemekhane|Cafeteria|Shopping Center|Al..veri. Merkezi"],"act":"Yemeğini ye","r":30,"points":100},
+ {"name":"Devrim'de otur","desc":"Devrim'de tribünde otur.","match":["Devrim","Stadium|Stadyum"],"act":"Otur","r":45,"points":120},
+ {"name":"Etkinliğe katıl","desc":"KKM'deki etkinliğe git.","match":["Cultural and Convention|K.lt.r ve Kongre"],"act":"Etkinliğe gir","r":40,"points":100},
+ {"name":"Sağlık Merkezi","desc":"Rapor al.","match":["^Mediko$|Medical Center|Sa.l.k Merkezi|T.p Merkezi"],"act":"Rapor al","r":30,"points":100},
+ {"name":"Yurda dön","desc":"En yakın yurda git.","match":["Dormitory|Yurt|Yurdu"],"act":"Dinlen","r":40,"points":50}
+]
